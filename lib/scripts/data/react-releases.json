@@ -1,0 +1,152 @@
+[
+    {
+        "y": "v16.4.0",
+        "x": "2018-05-24T00:35:31Z",
+        "url": "https://api.github.com/repos/facebook/react/commits/8765d608935a81ba5019f6cde6dce3367d392f0c",
+        "author": "Andrew Clark"
+    },
+    {
+        "y": "v16.3.0",
+        "x": "2018-03-29T20:07:12Z",
+        "url": "https://api.github.com/repos/facebook/react/commits/8e3d94ffa1d2e19a5bf4b9f8030973b65b0fc854",
+        "author": "Brian Vaughn"
+    },
+    {
+        "y": "v16.3.0-rc.0",
+        "x": "2018-03-28T02:11:20Z",
+        "url": "https://api.github.com/repos/facebook/react/commits/b3d883630cb6157cadf87495ebef4b6f322b4338",
+        "author": "Brian Vaughn"
+    },
+    {
+        "y": "v16.3.0-alpha.0",
+        "x": "2018-02-02T21:01:34Z",
+        "url": "https://api.github.com/repos/facebook/react/commits/885a291141330eb74e8a98316e286a9ad093f22c",
+        "author": "Brian Vaughn"
+    },
+    {
+        "y": "v16.2.0",
+        "x": "2017-11-28T21:29:23Z",
+        "url": "https://api.github.com/repos/facebook/react/commits/edb2b3d3a70bbb6a26670673ac805df34ac23382",
+        "author": "Clement Hoang"
+    },
+    {
+        "y": "v16.1.0",
+        "x": "2017-11-09T15:04:27Z",
+        "url": "https://api.github.com/repos/facebook/react/commits/1d3d791ca55f7b33364f9429372e62e01c90625a",
+        "author": "Dan Abramov"
+    },
+    {
+        "y": "v16.0.0",
+        "x": "2017-09-26T15:50:33Z",
+        "url": "https://api.github.com/repos/facebook/react/commits/5c6ef4044610a2a325780261f41730a33a919f98",
+        "author": "Andrew Clark"
+    },
+    {
+        "y": "v15.6.0",
+        "x": "2017-06-13T16:05:41Z",
+        "url": "https://api.github.com/repos/facebook/react/commits/911603b46e89ae0704561a2ad9a8cbd7f2bc12f1",
+        "author": "Flarnie Marchan"
+    },
+    {
+        "y": "v15.5.0",
+        "x": "2017-04-07T21:21:27Z",
+        "url": "https://api.github.com/repos/facebook/react/commits/e19c70013ede122826418a555ddb693237f80b8c",
+        "author": "Andrew Clark"
+    },
+    {
+        "y": "v15.4.0",
+        "x": "2016-11-16T14:16:57Z",
+        "url": "https://api.github.com/repos/facebook/react/commits/1c1f68e8dccbc84acfae66178493dbfb8ca7d1e1",
+        "author": "tomocchino"
+    },
+    {
+        "y": "v15.3.0",
+        "x": "2016-07-29T18:26:23Z",
+        "url": "https://api.github.com/repos/facebook/react/commits/66cee497e7cea1af35e67ca13da846a7c37b264b",
+        "author": "Paul O’Shannessy"
+    },
+    {
+        "y": "v15.2.0",
+        "x": "2016-07-01T18:31:05Z",
+        "url": "https://api.github.com/repos/facebook/react/commits/c6502493396bde8ceb7e28503264509c35001ca9",
+        "author": "Paul O’Shannessy"
+    },
+    {
+        "y": "v15.1.0",
+        "x": "2016-05-20T22:54:35Z",
+        "url": "https://api.github.com/repos/facebook/react/commits/fef495942a1cf7d507c816192fde205b6003df05",
+        "author": "Paul O’Shannessy"
+    },
+    {
+        "y": "v15.0.0",
+        "x": "2016-04-07T19:07:50Z",
+        "url": "https://api.github.com/repos/facebook/react/commits/d1c08f11d5e1ad03eb92a58b599562a010a68734",
+        "author": "Paul O’Shannessy"
+    },
+    {
+        "y": "v0.14.0",
+        "x": "2015-10-07T17:19:56Z",
+        "url": "https://api.github.com/repos/facebook/react/commits/3603d45157e6c1b21cda7ed96683408b319ae619",
+        "author": "Paul O’Shannessy"
+    },
+    {
+        "y": "v0.13.0",
+        "x": "2015-03-10T21:09:04Z",
+        "url": "https://api.github.com/repos/facebook/react/commits/edb8f7f4af980d2859582ed243b7f9dd6701a48e",
+        "author": "Paul O’Shannessy"
+    },
+    {
+        "y": "v0.12.0",
+        "x": "2014-10-28T18:23:41Z",
+        "url": "https://api.github.com/repos/facebook/react/commits/3e925822a6c3b7a2447a537563e66793383f3cc9",
+        "author": "Paul O’Shannessy"
+    },
+    {
+        "y": "v0.11.0",
+        "x": "2014-07-17T20:16:48Z",
+        "url": "https://api.github.com/repos/facebook/react/commits/95d82cacd6e9cc6a2fe6366d79510cc9133886cb",
+        "author": "Paul O’Shannessy"
+    },
+    {
+        "y": "v0.10.0",
+        "x": "2014-03-21T20:34:02Z",
+        "url": "https://api.github.com/repos/facebook/react/commits/dedf0c20da67872b5dff21a25cb9075e6019c12e",
+        "author": "Paul O’Shannessy"
+    },
+    {
+        "y": "v0.9.0",
+        "x": "2014-02-20T06:49:57Z",
+        "url": "https://api.github.com/repos/facebook/react/commits/274aca309334313e817d39c8fe0e719999a5a033",
+        "author": "Paul O’Shannessy"
+    },
+    {
+        "y": "v0.8.0",
+        "x": "2013-12-19T18:41:03Z",
+        "url": "https://api.github.com/repos/facebook/react/commits/2e1e868080a1bc1dedb9e75f018e5823f60cd125",
+        "author": "Paul O’Shannessy"
+    },
+    {
+        "y": "v0.5.0",
+        "x": "2013-10-16T18:43:09Z",
+        "url": "https://api.github.com/repos/facebook/react/commits/f756cb3d9c504b3759fb4cc4f5aec1d1e4d31ee8",
+        "author": "Paul O’Shannessy"
+    },
+    {
+        "y": "v0.4.0",
+        "x": "2013-07-17T18:25:30Z",
+        "url": "https://api.github.com/repos/facebook/react/commits/a54333842fff597986ec686ed46c91007e76fa18",
+        "author": "Paul O’Shannessy"
+    },
+    {
+        "y": "v0.3.0",
+        "x": "2013-05-29T19:46:11Z",
+        "url": "https://api.github.com/repos/facebook/react/commits/e9e6b9b9b7558f1bc972f5cfb7b396d396a5508f",
+        "author": "Paul O’Shannessy"
+    },
+    {
+        "y": "16.1.0",
+        "x": "2017-11-09T14:55:57Z",
+        "url": "https://api.github.com/repos/facebook/react/commits/7d9b4ba35ac3d45e798908540ca8ef131b20e72d",
+        "author": "Dan Abramov"
+    }
+]

@@ -1,0 +1,236 @@
+[
+    {
+        "y": "v3.4.0",
+        "x": "2018-08-28T00:09:55Z",
+        "url": "https://api.github.com/repos/emberjs/ember.js/commits/14f44d6fa72234eeed87cabf88a96d8064576220",
+        "author": "Katie Gengler"
+    },
+    {
+        "y": "v3.3.0",
+        "x": "2018-07-16T18:49:40Z",
+        "url": "https://api.github.com/repos/emberjs/ember.js/commits/b08b93c925bbc7fd4c39ad94cc8280abc56946e0",
+        "author": "Katie Gengler"
+    },
+    {
+        "y": "v3.2.0",
+        "x": "2018-06-01T03:15:51Z",
+        "url": "https://api.github.com/repos/emberjs/ember.js/commits/5028c758c98aa68d6919c4e35d7c9bd6f2302715",
+        "author": "Robert Jackson"
+    },
+    {
+        "y": "v3.1.0",
+        "x": "2018-04-10T21:22:07Z",
+        "url": "https://api.github.com/repos/emberjs/ember.js/commits/9a81db740367499e1b35540b20751f7577a631d6",
+        "author": "Katie Gengler"
+    },
+    {
+        "y": "v3.0.0",
+        "x": "2018-02-14T04:37:34Z",
+        "url": "https://api.github.com/repos/emberjs/ember.js/commits/84c8ecac85175571047690540f1dea7e62115c64",
+        "author": "Robert Jackson"
+    },
+    {
+        "y": "v2.18.0",
+        "x": "2018-01-01T15:58:16Z",
+        "url": "https://api.github.com/repos/emberjs/ember.js/commits/bdc2c3e3a15d13d8bb1951d44b1a28ee1c6a36cb",
+        "author": "Robert Jackson"
+    },
+    {
+        "y": "v2.17.0",
+        "x": "2017-11-29T14:33:12Z",
+        "url": "https://api.github.com/repos/emberjs/ember.js/commits/3625ba2adf825de80b02322717b46185536450bb",
+        "author": "Robert Jackson"
+    },
+    {
+        "y": "v2.16.0",
+        "x": "2017-10-10T00:47:36Z",
+        "url": "https://api.github.com/repos/emberjs/ember.js/commits/e295d51e7c719b1c8557ed0980469688ef61b94f",
+        "author": "Robert Jackson"
+    },
+    {
+        "y": "v2.15.0",
+        "x": "2017-08-31T14:10:50Z",
+        "url": "https://api.github.com/repos/emberjs/ember.js/commits/64a04326527aebe32a08e4a3c96db63ebc789913",
+        "author": "Robert Jackson"
+    },
+    {
+        "y": "v2.14.0",
+        "x": "2017-07-05T13:39:38Z",
+        "url": "https://api.github.com/repos/emberjs/ember.js/commits/d21fd543c747e99821f731d849ad334dafc37805",
+        "author": "Robert Jackson"
+    },
+    {
+        "y": "v2.13.0",
+        "x": "2017-04-27T20:49:55Z",
+        "url": "https://api.github.com/repos/emberjs/ember.js/commits/1cd37cb93d410ada94fcb98b73d489a28660f81f",
+        "author": "Robert Jackson"
+    },
+    {
+        "y": "v2.12.0",
+        "x": "2017-03-15T20:39:23Z",
+        "url": "https://api.github.com/repos/emberjs/ember.js/commits/1841cd84806c87bb2f731ef4a84a324b1f0a27ae",
+        "author": "Godfrey Chan"
+    },
+    {
+        "y": "v2.11.0",
+        "x": "2017-01-24T02:02:30Z",
+        "url": "https://api.github.com/repos/emberjs/ember.js/commits/00bc93fadcc0b96dfcee5024e881eb1036666533",
+        "author": "Robert Jackson"
+    },
+    {
+        "y": "v2.10.0",
+        "x": "2016-11-28T22:40:37Z",
+        "url": "https://api.github.com/repos/emberjs/ember.js/commits/9e2514ea38792827cff496cebe904fe6e98cb342",
+        "author": "Godfrey Chan"
+    },
+    {
+        "y": "v2.9.0",
+        "x": "2016-10-18T05:17:57Z",
+        "url": "https://api.github.com/repos/emberjs/ember.js/commits/594462b10336dde5f3d2367ac38194c161a6516e",
+        "author": "Robert Jackson"
+    },
+    {
+        "y": "v2.8.0",
+        "x": "2016-09-08T15:07:35Z",
+        "url": "https://api.github.com/repos/emberjs/ember.js/commits/bc08835d57786e7ba61943d8a3907aa1e94e2415",
+        "author": "Robert Jackson"
+    },
+    {
+        "y": "v2.7.0",
+        "x": "2016-07-25T22:30:38Z",
+        "url": "https://api.github.com/repos/emberjs/ember.js/commits/d56bc7bd9b488e5b3f54c47e987d24a0d67d3f53",
+        "author": "Robert Jackson"
+    },
+    {
+        "y": "v2.6.0",
+        "x": "2016-06-08T14:36:37Z",
+        "url": "https://api.github.com/repos/emberjs/ember.js/commits/b23765a0dcfcb8acc77979ddcc0d996c7ccd1c54",
+        "author": "Robert Jackson"
+    },
+    {
+        "y": "v2.5.0",
+        "x": "2016-04-11T21:15:06Z",
+        "url": "https://api.github.com/repos/emberjs/ember.js/commits/c46f9d16549e709b0dc6d25f2f0da830072e0ee2",
+        "author": "Godhuda"
+    },
+    {
+        "y": "v2.4.0",
+        "x": "2016-02-29T19:52:33Z",
+        "url": "https://api.github.com/repos/emberjs/ember.js/commits/484516eac38082ceb2ea3a7e1c0599818754849a",
+        "author": "Robert Jackson"
+    },
+    {
+        "y": "v2.3.0",
+        "x": "2016-01-18T04:46:01Z",
+        "url": "https://api.github.com/repos/emberjs/ember.js/commits/7587a7d1f9fd94fd20debad0c7477d1d051b35e2",
+        "author": "Robert Jackson"
+    },
+    {
+        "y": "v2.2.0",
+        "x": "2015-11-17T01:42:08Z",
+        "url": "https://api.github.com/repos/emberjs/ember.js/commits/0c3b904a57756dc347309a2fecf1de8119477dce",
+        "author": "Robert Jackson"
+    },
+    {
+        "y": "v2.1.0",
+        "x": "2015-10-05T02:12:38Z",
+        "url": "https://api.github.com/repos/emberjs/ember.js/commits/912b485f174bf3d94b058de15fc17d64cd82d0b0",
+        "author": "Robert Jackson"
+    },
+    {
+        "y": "v2.0.0",
+        "x": "2015-08-13T07:01:19Z",
+        "url": "https://api.github.com/repos/emberjs/ember.js/commits/e9be8410ef978c8bc08f53b3f2d003832e8ab925",
+        "author": "Robert Jackson"
+    },
+    {
+        "y": "v1.13.10",
+        "x": "2015-09-06T20:53:13Z",
+        "url": "https://api.github.com/repos/emberjs/ember.js/commits/a245d301cafdf053038f3c5d3a4d084eea7233d0",
+        "author": "Robert Jackson"
+    },
+    {
+        "y": "v1.13.0",
+        "x": "2015-06-13T07:39:38Z",
+        "url": "https://api.github.com/repos/emberjs/ember.js/commits/79a5f641ad336d7d7f760023ef9c46f8ee8ea29b",
+        "author": "Robert Jackson"
+    },
+    {
+        "y": "v1.12.0",
+        "x": "2015-05-14T02:26:55Z",
+        "url": "https://api.github.com/repos/emberjs/ember.js/commits/3e804aea5bb63ae8a74b923a53aab6b088c7317a",
+        "author": "Robert Jackson"
+    },
+    {
+        "y": "v1.11.0",
+        "x": "2015-03-28T19:59:25Z",
+        "url": "https://api.github.com/repos/emberjs/ember.js/commits/72d2409e9a3b1602cb97d99888832ea852e003ad",
+        "author": "Robert Jackson"
+    },
+    {
+        "y": "v1.10.0",
+        "x": "2015-02-08T01:14:29Z",
+        "url": "https://api.github.com/repos/emberjs/ember.js/commits/729e2cd19a92958d24d35dbabcf3faf55fd9d70e",
+        "author": "Robert Jackson"
+    },
+    {
+        "y": "v1.9.0",
+        "x": "2014-12-09T22:42:37Z",
+        "url": "https://api.github.com/repos/emberjs/ember.js/commits/5fe2d63a7dab0484cad9e729886ac71b4c05f1fd",
+        "author": "Robert Jackson"
+    },
+    {
+        "y": "v1.8.0",
+        "x": "2014-10-28T03:44:39Z",
+        "url": "https://api.github.com/repos/emberjs/ember.js/commits/8249bfa86446b7a98545066b9b6eadfeaae289ae",
+        "author": "Robert Jackson"
+    },
+    {
+        "y": "v1.7.0",
+        "x": "2014-08-20T02:54:27Z",
+        "url": "https://api.github.com/repos/emberjs/ember.js/commits/a6162631e1ec8abd7627784b33cd07483af40dce",
+        "author": "Robert Jackson"
+    },
+    {
+        "y": "v1.6.0",
+        "x": "2014-07-08T06:00:33Z",
+        "url": "https://api.github.com/repos/emberjs/ember.js/commits/92a844e65059a402c2435fc983033be01da9f83b",
+        "author": "hyder.ali"
+    },
+    {
+        "y": "v1.5.0",
+        "x": "2014-03-30T04:50:08Z",
+        "url": "https://api.github.com/repos/emberjs/ember.js/commits/4a3a43b202c5274a377839380bc2b203e9410eef",
+        "author": "Robert Jackson"
+    },
+    {
+        "y": "v1.4.0",
+        "x": "2014-02-14T13:47:59Z",
+        "url": "https://api.github.com/repos/emberjs/ember.js/commits/04d46b469ab9540d519152928e299b77c5278ec6",
+        "author": "Robert Jackson"
+    },
+    {
+        "y": "v1.3.0",
+        "x": "2014-01-07T03:52:36Z",
+        "url": "https://api.github.com/repos/emberjs/ember.js/commits/45900eecf86a7bbc8d5e328467133c292182a5b2",
+        "author": "Robert Jackson"
+    },
+    {
+        "y": "v1.2.0",
+        "x": "2013-11-23T04:00:07Z",
+        "url": "https://api.github.com/repos/emberjs/ember.js/commits/ed680deda6061842356c3ea63fbbeb381122d704",
+        "author": "Peter Wagenet"
+    },
+    {
+        "y": "v1.1.0",
+        "x": "2013-10-21T20:16:34Z",
+        "url": "https://api.github.com/repos/emberjs/ember.js/commits/98541e0042f2064113aabb1325e995adf89245d6",
+        "author": "Peter Wagenet"
+    },
+    {
+        "y": "v1.0.0",
+        "x": "2013-09-01T07:01:58Z",
+        "url": "https://api.github.com/repos/emberjs/ember.js/commits/b0ca8033ac69e2c4e6dcdc08f036dc317079b705",
+        "author": "Peter Wagenet"
+    }
+]

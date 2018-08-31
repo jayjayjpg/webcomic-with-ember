@@ -24,8 +24,10 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section class="main-track">
+					<section>Slide 1</section>
+					<section>Slide 2</section>
+			  </section>
 			</div>
 		</div>
 
@@ -41,7 +43,8 @@
 					{ src: 'plugin/markdown/marked.js' },
 					{ src: 'plugin/markdown/markdown.js' },
 					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'lib/js/Chart.bundle.min.js', async: true, callback: function() {} },
 				]
 			});
 		</script>

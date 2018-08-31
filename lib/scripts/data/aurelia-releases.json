@@ -1,0 +1,146 @@
+[
+    {
+        "y": "1.3.0",
+        "x": "2018-07-02T04:05:31Z",
+        "url": "https://api.github.com/repos/aurelia/framework/commits/3928b336e00937d9e33eb914d8a784759eeafd5b",
+        "author": "EisenbergEffect"
+    },
+    {
+        "y": "1.2.0",
+        "x": "2018-03-29T17:13:52Z",
+        "url": "https://api.github.com/repos/aurelia/framework/commits/c14b8b2ca2049600c7acfffba5fd242d864294ac",
+        "author": "EisenbergEffect"
+    },
+    {
+        "y": "1.1.0",
+        "x": "2017-02-27T06:24:08Z",
+        "url": "https://api.github.com/repos/aurelia/framework/commits/b0252e767ec234b44f7979b6be3177c7e4713e1b",
+        "author": "Rob Eisenberg"
+    },
+    {
+        "y": "1.0.0",
+        "x": "2016-07-27T17:02:36Z",
+        "url": "https://api.github.com/repos/aurelia/framework/commits/ac3e71d33571bcc6b369c5befe831143cb5263a6",
+        "author": "Rob Eisenberg"
+    },
+    {
+        "y": "1.0.0-rc.1.0.10",
+        "x": "2016-07-25T19:32:10Z",
+        "url": "https://api.github.com/repos/aurelia/framework/commits/245d519f29995474204388b8feb064b9fad7b35b",
+        "author": "Rob Eisenberg"
+    },
+    {
+        "y": "1.0.0-rc.1.0.0",
+        "x": "2016-06-22T14:57:22Z",
+        "url": "https://api.github.com/repos/aurelia/framework/commits/27cc51a591dfb12db49c13b36b70a7dc14700b15",
+        "author": "Rob Eisenberg"
+    },
+    {
+        "y": "0.18.0",
+        "x": "2015-11-10T16:05:04Z",
+        "url": "https://api.github.com/repos/aurelia/framework/commits/9f0743a5c1d0b86f49f23138e63dabfb8aad89f0",
+        "author": "Rob Eisenberg"
+    },
+    {
+        "y": "0.17.0",
+        "x": "2015-10-13T09:13:39Z",
+        "url": "https://api.github.com/repos/aurelia/framework/commits/fe4bf2111ca9f532a5c11f5a9269495797df6e34",
+        "author": "Rob Eisenberg"
+    },
+    {
+        "y": "0.16.0",
+        "x": "2015-09-05T04:53:32Z",
+        "url": "https://api.github.com/repos/aurelia/framework/commits/878729595c8619c0601341e8c45e55084b778430",
+        "author": "Rob Eisenberg"
+    },
+    {
+        "y": "0.15.0",
+        "x": "2015-08-14T07:59:10Z",
+        "url": "https://api.github.com/repos/aurelia/framework/commits/aade9da20a0d9dcfeca532131226a26acd7d02ae",
+        "author": "Rob Eisenberg"
+    },
+    {
+        "y": "0.14.0",
+        "x": "2015-08-05T04:42:48Z",
+        "url": "https://api.github.com/repos/aurelia/framework/commits/dd2547f790fba752d133052ecef814de88871a66",
+        "author": "Rob Eisenberg"
+    },
+    {
+        "y": "0.13.0",
+        "x": "2015-07-02T07:18:59Z",
+        "url": "https://api.github.com/repos/aurelia/framework/commits/6a5032a287c73d165773a75edc5c418c55e43791",
+        "author": "Rob Eisenberg"
+    },
+    {
+        "y": "0.12.0",
+        "x": "2015-06-09T03:38:21Z",
+        "url": "https://api.github.com/repos/aurelia/framework/commits/81d85bfea9e06b2bc032187f65ae0dded2370517",
+        "author": "Rob Eisenberg"
+    },
+    {
+        "y": "0.11.0",
+        "x": "2015-05-01T05:11:57Z",
+        "url": "https://api.github.com/repos/aurelia/framework/commits/10394dd38849fe4e449f6ac54798390bd4ac9a23",
+        "author": "Rob Eisenberg"
+    },
+    {
+        "y": "0.10.0",
+        "x": "2015-04-09T06:41:14Z",
+        "url": "https://api.github.com/repos/aurelia/framework/commits/c91c6d303b438ff4fecbb07b4aceac3644eb6587",
+        "author": "Rob Eisenberg"
+    },
+    {
+        "y": "0.9.0",
+        "x": "2015-03-25T06:25:55Z",
+        "url": "https://api.github.com/repos/aurelia/framework/commits/10cc026ee95c4124ae3a8c12e358d7cce0f545a7",
+        "author": "Rob Eisenberg"
+    },
+    {
+        "y": "0.8.0",
+        "x": "2015-01-22T08:34:47Z",
+        "url": "https://api.github.com/repos/aurelia/framework/commits/c2f779bda67f11d67705d025c50c9e63a7098574",
+        "author": "Rob Eisenberg"
+    },
+    {
+        "y": "0.7.0",
+        "x": "2015-01-12T15:10:48Z",
+        "url": "https://api.github.com/repos/aurelia/framework/commits/8c0e3e4b91904c428a63ab06343a3a1f1e93df23",
+        "author": "Rob Eisenberg"
+    },
+    {
+        "y": "0.6.0",
+        "x": "2015-01-07T16:02:41Z",
+        "url": "https://api.github.com/repos/aurelia/framework/commits/5127d4fb75e55066c9ad67e46a5ef1ca6cfbc62a",
+        "author": "Rob Eisenberg"
+    },
+    {
+        "y": "0.5.0",
+        "x": "2015-01-06T20:13:48Z",
+        "url": "https://api.github.com/repos/aurelia/framework/commits/1fac9d071e6f191636ab259d003855d3fef0143b",
+        "author": "Rob Eisenberg"
+    },
+    {
+        "y": "0.4.0",
+        "x": "2014-12-22T06:39:15Z",
+        "url": "https://api.github.com/repos/aurelia/framework/commits/07de898cb69ee2dbf62b3b5089fb2ef2921af84c",
+        "author": "Rob Eisenberg"
+    },
+    {
+        "y": "0.3.0",
+        "x": "2014-12-17T22:25:06Z",
+        "url": "https://api.github.com/repos/aurelia/framework/commits/17fe6d4dfeea7552f495898c3e03d8e415cd229b",
+        "author": "Rob Eisenberg"
+    },
+    {
+        "y": "0.2.0",
+        "x": "2014-12-12T02:03:02Z",
+        "url": "https://api.github.com/repos/aurelia/framework/commits/8c2e05aa2daf56099660dd792780484389972b82",
+        "author": "Rob Eisenberg"
+    },
+    {
+        "y": "0.1.0",
+        "x": "2014-12-11T19:31:59Z",
+        "url": "https://api.github.com/repos/aurelia/framework/commits/3f3b2a133e706260dc3605101158b21e122db8ac",
+        "author": "Rob Eisenberg"
+    }
+]
