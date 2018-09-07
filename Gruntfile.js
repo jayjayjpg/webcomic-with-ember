@@ -8,6 +8,16 @@ module.exports = function(grunt) {
 	// Project configuration
 	grunt.initConfig({
 		pkg: grunt.file.readJSON('package.json'),
+		/* 'babel': {
+			options: {
+				sourceMap: true
+			},
+			dist: {
+				files: {
+					"lib/js/babelled.js": "lib/js/src/index.js"
+				}
+			}
+		}, */
 		meta: {
 			banner:
 				'/*!\n' +
@@ -94,6 +104,7 @@ module.exports = function(grunt) {
 		connect: {
 			server: {
 				options: {
+					hostname: 'localhost',
 					port: port,
 					base: root,
 					livereload: true,
@@ -118,11 +129,26 @@ module.exports = function(grunt) {
 			}
 		},
 
+		browserify: {
+		  dist: {
+		    files: {
+		      'build/module.js': ['lib/js/src/mycharts.js']
+		    },
+		  }
+		},
+
 		watch: {
 			js: {
-				files: [ 'Gruntfile.js', 'js/reveal.js' ],
-				tasks: 'js'
+				files: [ 'Gruntfile.js', 'js/reveal.js', 'lib/js/src/mycharts.js' ],
+				tasks: ['js'],
+				options: {
+					reload: true,
+				}
 			},
+			/* babel: {
+				files: ['lib/js/src/index.js'],
+				tasks: ['babel'],
+			}, */
 			theme: {
 				files: [
 					'css/theme/source/*.sass',
@@ -143,15 +169,15 @@ module.exports = function(grunt) {
 				files: root.map(path => path + '/*.md')
 			},
 			options: {
-				livereload: true
-			}
+				reload: true,
+				livereload: true,
+			},
 		},
 
 		retire: {
-			js: [ 'js/reveal.js', 'lib/js/*.js', 'plugin/**/*.js' ],
+			js: [ 'js/reveal.js', 'lib/js/*.js', 'lib/js/src/*.js', 'plugin/**/*.js' ],
 			node: [ '.' ]
-		}
-
+		},
 	});
 
 	// Dependencies
@@ -165,9 +191,11 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks( 'grunt-retire' );
 	grunt.loadNpmTasks( 'grunt-sass' );
 	grunt.loadNpmTasks( 'grunt-zip' );
+	// grunt.loadNpmTasks( 'grunt-babel' );
+	grunt.loadNpmTasks('grunt-browserify');
 
 	// Default task
-	grunt.registerTask( 'default', [ 'css', 'js' ] );
+	grunt.registerTask( 'default', [ 'css', 'js', /* 'babel' */]  );
 
 	// JS task
 	grunt.registerTask( 'js', [ 'jshint', 'uglify', 'qunit' ] );
@@ -189,5 +217,4 @@ module.exports = function(grunt) {
 
 	// Run tests
 	grunt.registerTask( 'test', [ 'jshint', 'qunit' ] );
-
 };
