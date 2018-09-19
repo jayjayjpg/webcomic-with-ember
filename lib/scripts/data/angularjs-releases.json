@@ -1,150 +1,60 @@
 [
     {
-        "y": "v1.7.0",
+        "y": "1.7",
         "x": "2018-05-11T08:31:53Z",
         "url": "https://api.github.com/repos/angular/angular.js/commits/45879a8c5a2222f88bcd1c0fcc0acabbddb1693f",
         "author": "Martin Staffa"
     },
     {
-        "y": "v1.7.0-rc.0",
-        "x": "2018-04-13T09:17:52Z",
-        "url": "https://api.github.com/repos/angular/angular.js/commits/841feb0a05f0b716d0628c2341820893bda5f929",
-        "author": "Martin Staffa"
-    },
-    {
-        "y": "v1.6.10",
-        "x": "2018-04-17T16:34:13Z",
-        "url": "https://api.github.com/repos/angular/angular.js/commits/2549313eab8795c875b89b38b804dac40762fb31",
-        "author": "Martin Staffa"
-    },
-    {
-        "y": "v1.6.0",
+        "y": "1.6",
         "x": "2016-12-08T11:07:52Z",
         "url": "https://api.github.com/repos/angular/angular.js/commits/4c5afb5cc2f72e966be9ee4f80732dd6e143d91d",
         "author": "Peter Bacon Darwin"
     },
     {
-        "y": "v1.6.0-rc.0",
-        "x": "2016-10-27T19:27:41Z",
-        "url": "https://api.github.com/repos/angular/angular.js/commits/1cf01d6fa7fcfb45bef46e4a800845ae8ab90b06",
-        "author": "Peter Bacon Darwin"
-    },
-    {
-        "y": "v1.5.10",
-        "x": "2016-12-16T10:27:04Z",
-        "url": "https://api.github.com/repos/angular/angular.js/commits/11fbc17f65926df18e4da788b7148cc5d0554aeb",
-        "author": "Georgios Kalpakas"
-    },
-    {
-        "y": "v1.5.0",
+        "y": "1.5",
         "x": "2016-02-05T10:04:17Z",
         "url": "https://api.github.com/repos/angular/angular.js/commits/39eecd136f5782e85a92f611cf3e73ac6b97caf2",
         "author": "Peter Bacon Darwin"
     },
     {
-        "y": "v1.5.0-rc.0",
-        "x": "2015-12-09T13:50:58Z",
-        "url": "https://api.github.com/repos/angular/angular.js/commits/23c4ae522ae72fe20114c3283ea90cefb3101bcc",
-        "author": "Peter Bacon Darwin"
-    },
-    {
-        "y": "v1.4.10",
-        "x": "2016-03-14T20:24:36Z",
-        "url": "https://api.github.com/repos/angular/angular.js/commits/8dee8f1b9e0568cdeefd0b01dda1da31eca5e183",
-        "author": "Matias Niemela"
-    },
-    {
-        "y": "v1.4.0",
+        "y": "1.4",
         "x": "2015-05-27T00:33:06Z",
         "url": "https://api.github.com/repos/angular/angular.js/commits/291d7c467fba51a9cb89cbeee62202d51fe64b09",
         "author": "Matias Niemelä"
     },
     {
-        "y": "v1.4.0-rc.0",
-        "x": "2015-04-10T17:43:28Z",
-        "url": "https://api.github.com/repos/angular/angular.js/commits/b6afe1b208d7b49cca3695b2bdd1c7b7c2ff635d",
-        "author": "Matias Niemelä"
-    },
-    {
-        "y": "v1.3.20",
-        "x": "2015-09-29T20:24:18Z",
-        "url": "https://api.github.com/repos/angular/angular.js/commits/2a65c3deb76566b8810807267788c8983f1a36d4",
-        "author": "Matias Niemelä"
-    },
-    {
-        "y": "v1.3.10",
-        "x": "2015-01-16T12:52:48Z",
-        "url": "https://api.github.com/repos/angular/angular.js/commits/d01cae2a0dd8bae3c8b8bd5792816d0c466355d1",
-        "author": "Alexandr Subbotin"
-    },
-    {
-        "y": "v1.3.0",
+        "y": "1.3",
         "x": "2014-10-13T22:27:20Z",
         "url": "https://api.github.com/repos/angular/angular.js/commits/399a7afafefb8818f255d5b9e6a42b2b57aabf97",
         "author": "Jeff Cross"
     },
     {
-        "y": "v1.3.0-rc.0",
-        "x": "2014-08-30T01:12:48Z",
-        "url": "https://api.github.com/repos/angular/angular.js/commits/202aed77700b44777516d453ca88196b1b916191",
-        "author": "Matias Niemelä"
-    },
-    {
-        "y": "v1.2.30",
-        "x": "2016-07-20T19:55:42Z",
-        "url": "https://api.github.com/repos/angular/angular.js/commits/2687c26140585d9e3716f9f559390f5d8d598fdf",
-        "author": "Georgios Kalpakas"
-    },
-    {
-        "y": "v1.2.20",
-        "x": "2014-07-11T18:10:20Z",
-        "url": "https://api.github.com/repos/angular/angular.js/commits/eba192b8638192168e6ba44bdd887172e5321281",
-        "author": "Erin Altenhof-Long"
-    },
-    {
-        "y": "v1.2.10",
-        "x": "2014-01-24T23:28:28Z",
-        "url": "https://api.github.com/repos/angular/angular.js/commits/451bde124497a4fdae19a4f7e89c42cd3715ac09",
-        "author": "jenkins"
-    },
-    {
-        "y": "v1.2.0",
+        "y": "1.2",
         "x": "2013-11-08T17:40:09Z",
         "url": "https://api.github.com/repos/angular/angular.js/commits/907f71597affff552a4b79a1d913404fad68df11",
         "author": "Igor Minar"
     },
     {
-        "y": "v1.1.0",
+        "y": "1.1",
         "x": "2012-08-31T20:31:04Z",
         "url": "https://api.github.com/repos/angular/angular.js/commits/d0c0eadeddf6382cc8d8996fc9ac1f5cddf4d97a",
         "author": "Igor Minar"
     },
     {
-        "y": "v1.0.0",
+        "y": "1.0",
         "x": "2012-06-14T14:21:29Z",
         "url": "https://api.github.com/repos/angular/angular.js/commits/519bef4f3d1cdac497c782f77457fd2f67184601",
         "author": "Igor Minar"
     },
     {
-        "y": "v1.0.0rc10",
-        "x": "2012-05-24T04:05:21Z",
-        "url": "https://api.github.com/repos/angular/angular.js/commits/5fdf42ce3949ccf5a2e1f2beee50b6b57279f53e",
-        "author": "Igor Minar"
-    },
-    {
-        "y": "v0.10.0",
+        "y": "0.10",
         "x": "2011-09-02T18:32:29Z",
         "url": "https://api.github.com/repos/angular/angular.js/commits/8bae2a5ecbb2ed554fad4fcea9bfe80a4655fe08",
         "author": "Igor Minar"
     },
     {
-        "y": "v0.9.10",
-        "x": "2011-01-27T07:51:06Z",
-        "url": "https://api.github.com/repos/angular/angular.js/commits/9f947e5b8b7a6a792176615be9a91fa520052b44",
-        "author": "Igor Minar"
-    },
-    {
-        "y": "v0.9.0",
+        "y": "0.9",
         "x": "2010-10-20T21:49:55Z",
         "url": "https://api.github.com/repos/angular/angular.js/commits/2a9579a0ea72be0d03296eca08d481acbc9d55c5",
         "author": "Igor Minar"

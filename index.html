@@ -7,6 +7,7 @@
 		<title>reveal.js</title>
 
 		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/white.css">
 		<link rel="stylesheet" href="css/theme/varofjs.css">
 		<style>
       .container {
@@ -31,14 +32,367 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section class="main-track">
-					<section>Slide 1
+				<section data-background-color="#f7df1e">
+					<h1>JavaScript Diversity</h1>
+					<small class="right" style="font-style: italic; float: right; margin-top: 2em;"><a href="https://twitter.com/jjordan_dev" target="react-comp-blogpost">
+						<img src="./lib/img/logos/twitter.png" alt="Twitter Logo" style="height: 30px; width: 30px; position: relative; top: -13px;"/>@jjordan_dev</a></small>
+				</section>
+				<section>
+          <h1>&lt;ConfCred&gt;<span class="fragment fade-up">💁🏾</span></h1>
+				</section>
+				<section data-background-image="./lib/img/berlin.jpg">
+
+				</section>
+				<section data-background-image="./lib/img/techno.jpg">
+
+				</section>
+				<section data-background-image="./lib/img/food.jpg">
+
+				</section>
+				<section>
+          <p class="fragment fade-up"><img height="150" src="./lib/img/logos/simplabs.gif" alt="simplabs logo"></p>
+					<div class="row fragemnt fade-up">
+            <div class="col col-4 fragment fade-up">
+              <img height="100" src="./lib/img/logos/phoenix.png" alt="simplabs logo">
+						</div>
+						<div class="col col-4 fragment fade-up">
+							<img height="100" src="./lib/img/logos/rails.png" alt="simplabs logo">
+						</div>
+						<div class="col col-4 fragment fade-up">
+							<img height="100" src="./lib/img/logos/ember.png" alt="simplabs logo">
+						</div>
+					</div>
+				</section>
+				<section data-background-image="./lib/img/biology.jpg">
+
+				</section>
+				<!-- <section class="main-track"> -->
+					<section data-background-image="./lib/img/ecosystem.jpg">
+						<h1 class="light">Ecosystems</h1>
+						<aside class="notes">
+							1. a biological community of interacting organisms and their physical environment.
+							2. (in general use) a complex network or interconnected system.
+						</aside>
+					</section>
+					<section>
+						<h1>JavaScript Ecosystem</h1>
+						<span style="font-size: 0.8em; font-weight: bold;">/ˈdʒɑːvə skɹɪpt ˈikoʊˌsɪstəm/</span>
+						<p>
+							<i>
+								the complex of active JavaScript technologies, their usage, and all their interrelationships in a particular unit of time
+							</i></p>
+					</section>
+					<section data-background-image="./lib/img/frameworks.png">
+						<aside class="notes">something something JavaScript ecosystems current state</h1>
+						current state + development
+					  </aside>
+					</section>
+					<section>
+						<div class="container">
+							<canvas id="slide-2a"></canvas>
+						</div>
+					</section>
+					<section>
+						<div class="container">
+							<canvas id="slide-2b"></canvas>
+						</div>
+					</section>
+					<!-- <section>
+						<div class="container">
+							<div class="row">
+								<div class="col col-4 col-extra-low">
+                  <img class="fill" src="/lib/img/so-react.svg" alt="stackoverflow-react-trend" />
+								</div>
+								<div class="col col-4 col-extra-low">
+							    <img class="fill" src="/lib/img/so-angular.svg" alt="stackoverflow-angular-trend" />
+						    </div>
+								<div class="col col-4 col-extra-low">
+                  <img class="fill" src="/lib/img/so-vue.svg" alt="stackoverflow-vue-trend" />
+								</div>
+						  </div>
+							<div class="row">
+								<div class="col col-4 col-extra-low">
+                  <img class="fill" src="/lib/img/so-aurelia.svg" alt="stackoverflow-aurelia-trend" />
+								</div>
+								<div class="col col-4 col-extra-low">
+							    <img class="fill" src="/lib/img/so-ember.svg" alt="stackoverflow-ember-trend" />
+						    </div>
+								<div class="col col-4 col-extra-low">
+							    <img class="fill" src="/lib/img/so-backbone.svg" alt="stackoverflow-backbone-trend" />
+						    </div>
+						  </div>
+							<div class="row">
+								<div class="col col-4 col-extra-low">
+                  <img class="fill" src="/lib/img/so-meteor.svg" alt="stackoverflow-meteor-trend" />
+								</div>
+								<div class="col col-4 col-extra-low">
+							    <img class="fill" src="/lib/img/so-mootools.svg" alt="stackoverflow-mootools-trend" />
+						    </div>
+								<div class="col col-4 col-extra-low">
+							    <img class="fill" src="/lib/img/so-javascript.svg" alt="stackoverflow-javascript-trend" />
+						    </div>
+						  </div>
+						</div>
+					</section> -->
+					<section>
+						<div class="row">
+							<div class="col">
+								<img class="fill" src="/lib/img/so-all-javascript.svg" alt="stackoverflow-all-js-trend" />
+							</div>
+						</div>
+					</section>
+					<section>
+						<div id="world-map-container" style="position: relative; width: 1000px; height: 500px; margin: 0 auto; left: -500px;"></div>
+						<div id="bubble-us" class="fragment fade-up"></div>
+						<div id="bubble-china" class="fragment fade-up"></div>
+						<div id="bubble-india" class="fragment fade-up"></div>
+						<div id="bubble-lagos" class="fragment fade-up"></div>
+					</section>
+					<section>
+						<div class="container">
+							<canvas id="slide-4a"></canvas>
+							<div id="show-react" class="fragment fade-out"></div>
+							<div id="show-angular" class="fragment fade-out"></div>
+						</div>
+					</section>
+					<section style="text-align: center;">
+						<h2>Communities</h2>
+						<div class="row centered">
+							<div class="col col-low fragment fade-up">
+								<img class="fill" src="/lib/img/forums/ember.png" alt="Ember Discourse" />
+							</div>
+							<div class="col col-low fragment fade-in">
+								<img class="fill" src="/lib/img/forums/aurelia.png" alt="Aurelia Discourse" />
+							</div>
+							<div class="col col-low fragment fade-in">
+								<img class="fill" src="/lib/img/forums/vue.png" alt="Vue Discourse" />
+							</div>
+							<div class="col col-low fragment fade-in">
+								<img class="fill" src="/lib/img/forums/react.png" alt="React Discourse" />
+							</div>
+						</div>
+					</section>
+					<section style="text-align: center;">
+						<h2>Communities</h2>
+						<div class="container">
+						  <canvas id="slide-5a"></canvas>
+					  </div>
+					</section>
+					<section>
 						<div class="container">
 						  <canvas id="slide-1a"></canvas>
 					  </div>
 					</section>
-					<section>Slide 2</section>
-			  </section>
+					<section>
+						<h1>Evolution of the JavaScript ecosystem</h1>
+					</section>
+					<section data-background-image="./lib/img/darwinfinch.jpg" style="background-size: contain;">
+
+					</section>
+					<section>
+            <h1>Divergent Evolution</h1>
+					</section>
+					<section>
+						<h2>Divergent Evolution</h2>
+            <a href="https://github.com/emberjs/ember.js/tree/sc-v2.0.beta.1">
+							<img class="shadowed" src="./lib/img/scfork.png" alt="Ember JS sc-pre1.0-release on Github">
+						</a>
+					</section>
+					<section>
+						<h2>Divergent Evolution</h2>
+						<div class="row">
+              <div class="col col-6">
+                <div class="ancestor-tree">
+									<div class="tree-blob ancestor sproutcore">
+										<p class="small-title"><a href="https://github.com/emberjs/ember.js/tree/sc-v2.0.beta.1">sc-v2.0.beta.1</a></p>
+								  </div>
+									<div class="tree-blob ember right fragment fade-up">
+                    <p class="small-title"><a href="https://github.com/emberjs/ember.js/tree/v3.4.1">Ember 3.4.1</a></p>
+                  </div>
+									<div class="tree-blob sproutcore left fragment fade-up">
+										<p class="small-title"><a href="https://github.com/sproutcore/sproutcore">SproutCore 2 REL-1.11</a></p>
+                  </div>
+								</div>
+							</div>
+							<div class="col col-6 fragment fade-up">
+                <div class="ancestor-tree">
+									<div class="tree-blob ancestor embercli">
+	 								  <p class="small-title"><a href="https://github.com/angular/angular-cli/tree/0.0.13">Dec 2015</a></p>
+								  </div>
+									<div class="tree-blob angularcli right fragment fade-up">
+                    <p class="small-title">Angular CLI 6.2.2</p>
+                  </div>
+									<div class="tree-blob embercli left fragment fade-up">
+										<p class="small-title"><a href="https://github.com/ember-cli/ember-cli/releases/tag/v3.4.2">Ember CLI 3.4.2</a></p>
+                  </div>
+								</div>
+							</div>
+						</div>
+					</section>
+					<section>
+						<h2>Divergent Evolution</h2>
+						  <div class="row">
+							  <div class="col col-6">
+							    <img class="shadowed" src="./lib/img/ngserve.gif" alt="Angular CLI in Action: Terminal Demo for the commands ng new and ng serve">
+								</div>
+								<div class="col col-6">
+							    <img class="shadowed" src="./lib/img/emberserve.gif" alt="Ember CLI in Action: Terminal Demo for the commands ember new and ember serve">
+								</div>
+						  </div>
+					</section>
+					<section>
+						<div class="container">
+							<canvas id="slide-3a"></canvas>
+						</div>
+					</section>
+					<section>
+            <h1>Divergent Evolution</h1>
+						<quote>
+              "I figured, what if I could just extract the part that I really liked about Angular and build something really lightweight without all the extra concepts involved?"
+							"That was basically how Vue started."
+						</quote>
+						<p class="small-title"><a href="https://medium.freecodecamp.org/between-the-wires-an-interview-with-vue-js-creator-evan-you-e383cbf57cc4">Evan You, from "Between the Wires" with Vivian Cromwell</a></p>
+					</section>
+					<section data-background-image="./lib/img/tools.jpg">
+            <h1>Divergent Evolution is about Creating Tools for Different Jobs</h1>
+					</section>
+					<section>
+						<div class="row">
+              <div class="col col-6 fragment fade-up">
+                <img src="./lib/img/shark.jpg" alt="Shark">
+							</div>
+							<div class="col col-6 fragment fade-up">
+                <img src="./lib/img/dolphin.jpg" alt="Dolphin">
+							</div>
+						</div>
+            <h1 class="fragment fade-up">Convergent Evolution</h1>
+					</section>
+					<section data-background-color="#222222" data-background-position="right">
+						<div class="row">
+							<h3 class="light">Container Components</h3>
+						</div>
+						<div class="framework-theme"><img src="./lib/img/logos/react.png"></div>
+						<div class="row" style="position: relative;">
+							<div class="col col-12 col-less-tall">
+							<div class="fragment fade-in fade-out fade-multiple wide">
+		            <pre class="javascript"><code class="blurred dark">class CommentList extends React.Component {
+  render() {
+    return (
+      &lt;ul&gt;
+        {this.state.comments.map(c => (
+          &lt;li>{c.body} — by {c.author} on {c.date}&lt;/li&gt;
+        ))}
+      &lt;/ul&gt;
+    );
+  }
+}</code></pre>
+</div>
+<div class="fragment fade-in fade-out fade-multiple wide">
+	<pre class="javascript"><code class="blurred dark">class CommentList extends React.Component {
+  this.state = { comments: [] };
+
+  componentDidMount() {
+    fetchComments(comments =>
+    this.setState({ comments: comments }));
+  }
+
+  render() { /* ... */ }
+}</code></pre>
+</div>
+<div class="fragment fade-in fade-out fade-multiple wide">
+<pre class="javascript"><code>const CommentList = props =>
+  <ul>
+    {props.comments.map(c => (
+      &lt;li&gt;{c.body}—{c.author}&lt;/li&gt;
+    ))}
+  </ul></code></pre>
+</div>
+<div class="fragment fade-in fade-out fade-multiple wide">
+	<pre class="javascript"><code class="blurred dark">class CommentListContainer extends React.Component {
+  state = { comments: [] };
+  componentDidMount() {
+    fetchSomeComments(comments =>
+      this.setState({ comments: comments }));
+  }
+  render() {
+    return &lt;CommentList comments={this.state.comments} /&gt;;
+  }
+}</code></pre>
+</div>
+              </div>
+					  </div>
+						<div class="row">
+							<small class="right" style="font-style: italic; float: right; margin-top: 2em;">from <a href="https://medium.com/@learnreact/container-components-c0e67432e005" target="react-comp-blogpost">Container Components</a> by @chantastic</small>
+						</div>
+					</section>
+					<section data-background-color="#9b2918">
+						<div class="row">
+							<h3>Data Down, Actions Up</h3>
+						</div>
+						<div class="framework-theme"><img src="./lib/img/logos/ember.png" style="width: 2em;"></div>
+						<div class="row" style="position: relative;">
+							<div class="col col-12 col-less-tall">
+							<div class="fragment fade-in fade-out fade-multiple wide">
+		            <pre class="javascript"><code>import Route from '@ember/route';
+
+export default Route.extend({
+  model() {
+    return this.get('store').findAll('comment');
+  },
+});
+</code></pre>
+</div>
+<div class="fragment fade-in fade-out fade-multiple wide">
+<pre class="javascript"><code>// app/components/comment-list.js
+import Component from '@ember/component';
+
+export default Component.extend({
+	tagName: 'ul',
+	comments: null,
+});
+
+// app/templates/components/comment-list.hbs
+
+{{#each comments as |comment|}}
+  &lt;li&gt;{{comment.body}} - by {{comment.author}}&lt;/li&gt;
+{{/each}}
+</code></pre>
+</div>
+<div class="fragment fade-in fade-out fade-multiple wide">
+	<pre><code>// app/templates/post.hbs
+
+<h1>Posts</h1>
+{{! other post route related markup}}
+{{comment-list comments=model}}
+</code></pre>
+</div>
+              </div>
+					  </div>
+					</section>
+<section data-background-image="./lib/img/ecosystem2.jpg">
+</section>
+<section>
+  <h2 id="typefield"></h2>
+	<div id="start-typing" class="fragment fade-up"></div>
+</section>
+					<section>
+            <div class="row">
+             <h2>Sources</h2>
+						 <hr>
+						 <h3>Images</h3>
+						 <ul>
+              <li>
+								<a href="https://hackernoon.com/how-it-feels-to-learn-javascript-in-2016-d3a717dd577f">
+								  Framework Overview from @jjperezaguinaga's blog post "How it feels to learn JavaScript in 2016"
+							  </a>
+						  </li>
+							<li>
+
+							</li>
+						 </ul>
+						</div>
+					</section>
+			  <!-- </section> -->
 			</div>
 		</div>
 
@@ -53,10 +407,14 @@
 				dependencies: [
 					{ src: 'plugin/markdown/marked.js' },
 					{ src: 'plugin/markdown/markdown.js' },
+	        { src: 'lib/js/topojson.min.js' },
+					{ src: 'lib/js/d3.min.js' },
+					{ src: 'lib/js/worldmap.js' },
 					{ src: 'plugin/notes/notes.js', async: true },
 					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
 					{ src: 'lib/js/Chart.bundle.min.js', async: true, callback: function() {} },
-					{ src: 'lib/js/src/mycharts.js', async: true, },
+					{ src: 'js/chartz.js', async: true, },
+					{ src: 'lib/js/typed.js', async: true, },
 				]
 			});
 		</script>

@@ -1,212 +1,98 @@
 [
     {
-        "y": "ngcontainer_0.3.0",
-        "x": "2018-04-24T18:30:23Z",
-        "url": "https://api.github.com/repos/angular/angular/commits/8062f7de9eb671b527b5eceba5a8a63be8054a44",
-        "author": "Olivier Combe"
-    },
-    {
-        "y": "6.1.0",
+        "y": "6.1",
         "x": "2018-07-25T21:23:05Z",
         "url": "https://api.github.com/repos/angular/angular/commits/48d7205873f13c9a8ea417364d59e23b46478c79",
         "author": "Victor Berchet"
     },
     {
-        "y": "6.1.0-rc.0",
-        "x": "2018-07-11T21:20:42Z",
-        "url": "https://api.github.com/repos/angular/angular/commits/5bd3916608fb7d370a0627bd96bf6b5930ec3cf7",
-        "author": "Miško Hevery"
-    },
-    {
-        "y": "6.0.0",
+        "y": "6.0",
         "x": "2018-05-03T19:17:26Z",
         "url": "https://api.github.com/repos/angular/angular/commits/d0ccf5f1697c1c0d4e3c8ea7a25f3c87a239df7e",
         "author": "Igor Minar"
     },
     {
-        "y": "6.0.0-rc.0",
-        "x": "2018-03-21T04:37:12Z",
-        "url": "https://api.github.com/repos/angular/angular/commits/73261a8b7080b03caff1ee813f791bdb72668937",
-        "author": "Igor Minar"
-    },
-    {
-        "y": "5.2.10",
-        "x": "2018-04-16T07:21:13Z",
-        "url": "https://api.github.com/repos/angular/angular/commits/d2e7c99a93393ae5695dd3d374288afad2962b37",
-        "author": "Igor Minar"
-    },
-    {
-        "y": "5.2.0",
+        "y": "5.2",
         "x": "2018-01-10T01:00:17Z",
         "url": "https://api.github.com/repos/angular/angular/commits/04dd9713f090ae7a9710b08b6a23b3619112fb3d",
         "author": "Kara Erickson"
     },
     {
-        "y": "5.2.0-rc.0",
-        "x": "2018-01-04T00:12:35Z",
-        "url": "https://api.github.com/repos/angular/angular/commits/cdc66f616467e8623e04b49c2a029ba207a073bd",
-        "author": "Misko Hevery"
-    },
-    {
-        "y": "5.1.0",
+        "y": "5.1",
         "x": "2017-12-06T20:08:51Z",
         "url": "https://api.github.com/repos/angular/angular/commits/c2dbc55f115eb259a6d90e2b45ed61c329258c22",
         "author": "Igor Minar"
     },
     {
-        "y": "5.1.0-rc.0",
-        "x": "2017-12-01T05:38:52Z",
-        "url": "https://api.github.com/repos/angular/angular/commits/60a30818efc5c7796eed36573ab1608dc7f46937",
-        "author": "Misko Hevery"
-    },
-    {
-        "y": "5.0.0",
+        "y": "5.0",
         "x": "2017-11-01T16:44:35Z",
         "url": "https://api.github.com/repos/angular/angular/commits/5775376bcf7e35017444e60cd7f9e4f5a1959572",
         "author": "Matias Niemelä"
     },
     {
-        "y": "5.0.0-rc.0",
-        "x": "2017-09-28T23:29:39Z",
-        "url": "https://api.github.com/repos/angular/angular/commits/30d5a2ca83c9cf44f602462597a58547b05b75dd",
-        "author": "Victor Berchet"
-    },
-    {
-        "y": "4.4.0",
+        "y": "4.4",
         "x": "2017-09-15T21:54:32Z",
         "url": "https://api.github.com/repos/angular/angular/commits/4e7d2bd5bfc329704e0577f7c987970a708c8c15",
         "author": "Matias Niemelä"
     },
     {
-        "y": "4.4.0-RC.0",
+        "y": "4.4.0",
         "x": "2017-09-02T05:01:41Z",
         "url": "https://api.github.com/repos/angular/angular/commits/aeb98dbcdfec5a2e0f7b6ae167a10bd3e15f5096",
         "author": "Misko Hevery"
     },
     {
-        "y": "4.3.0",
+        "y": "4.3",
         "x": "2017-07-14T20:12:37Z",
         "url": "https://api.github.com/repos/angular/angular/commits/a0b06befb6972e96ce5b724c14a65f5382bd4eee",
         "author": "Alex Rickabaugh"
     },
     {
-        "y": "4.3.0-rc.0",
-        "x": "2017-07-08T05:10:17Z",
-        "url": "https://api.github.com/repos/angular/angular/commits/cc611c93b6748717f660bc99124bb4f8b9bc0fa3",
-        "author": "Jason Aden"
-    },
-    {
-        "y": "4.2.0",
+        "y": "4.2",
         "x": "2017-06-08T22:13:37Z",
         "url": "https://api.github.com/repos/angular/angular/commits/1c04b83ea3076ebafb95c5d42bd4608a0ddaad64",
         "author": "Alex Rickabaugh"
     },
     {
-        "y": "4.2.0-rc.0",
-        "x": "2017-05-19T23:03:18Z",
-        "url": "https://api.github.com/repos/angular/angular/commits/3d382dc7509880cbb8d945c28090c1a5eac336b8",
-        "author": "Jason Aden"
-    },
-    {
-        "y": "4.1.0",
+        "y": "4.1",
         "x": "2017-04-26T15:52:42Z",
         "url": "https://api.github.com/repos/angular/angular/commits/b9723f9765c15dfb3f7fc797bb5cdf4a7a9e2c9a",
         "author": "Miško Hevery"
     },
     {
-        "y": "4.1.0-rc.0",
-        "x": "2017-04-21T05:15:03Z",
-        "url": "https://api.github.com/repos/angular/angular/commits/d855e90524d079a5fa3b2f98595f7d4f4a4353b1",
-        "author": "Miško Hevery"
-    },
-    {
-        "y": "4.0.0",
+        "y": "4.0",
         "x": "2017-03-23T23:48:54Z",
         "url": "https://api.github.com/repos/angular/angular/commits/7a715b2403867aa3adfab1c87acd22af4fd8697b",
         "author": "Victor Berchet"
     },
     {
-        "y": "2.4.10",
-        "x": "2017-03-17T02:26:58Z",
-        "url": "https://api.github.com/repos/angular/angular/commits/6b57928d35730c3833e62581960a474b644770cd",
-        "author": "Chuck Jazdzewski"
-    },
-    {
-        "y": "2.4.0",
+        "y": "2.4",
         "x": "2016-12-20T01:42:17Z",
         "url": "https://api.github.com/repos/angular/angular/commits/6efdf84d3e66a9a6ea0c5ccd0d67304fc3022d1a",
         "author": "Chuck Jazdzewski"
     },
     {
-        "y": "2.3.0",
+        "y": "2.3",
         "x": "2016-12-07T21:54:22Z",
         "url": "https://api.github.com/repos/angular/angular/commits/13b41bd6310dd8c10d76deef45f157e0527b1707",
         "author": "Alex Rickabaugh"
     },
     {
-        "y": "2.3.0-rc.0",
-        "x": "2016-11-30T23:36:46Z",
-        "url": "https://api.github.com/repos/angular/angular/commits/c066281bada8dfdd8d59ccbe31de1676be82b1b1",
-        "author": "Alex Rickabaugh"
-    },
-    {
-        "y": "2.2.0",
+        "y": "2.2",
         "x": "2016-11-14T19:26:03Z",
         "url": "https://api.github.com/repos/angular/angular/commits/2524d510bc1dd1a156c3e6ac01e7532c230e5410",
         "author": "Igor Minar"
     },
     {
-        "y": "2.2.0-rc.0",
-        "x": "2016-11-02T23:28:29Z",
-        "url": "https://api.github.com/repos/angular/angular/commits/953cb50fa56fabd33fa8b97e2f221b59834252ed",
-        "author": "Igor Minar"
-    },
-    {
-        "y": "2.1.0",
+        "y": "2.1",
         "x": "2016-10-12T20:19:31Z",
         "url": "https://api.github.com/repos/angular/angular/commits/07bd4b0630d9d14f5abc6d5156462cc579bcaaa2",
         "author": "Tobias Bosch"
     },
     {
-        "y": "2.1.0-rc.0",
-        "x": "2016-10-06T13:43:17Z",
-        "url": "https://api.github.com/repos/angular/angular/commits/ef621a2f00f1776616fb2f0cee01adf2c21a28b9",
-        "author": "Igor Minar"
-    },
-    {
-        "y": "2.0.0",
+        "y": "2.0",
         "x": "2016-09-14T23:49:10Z",
         "url": "https://api.github.com/repos/angular/angular/commits/ffe5c49c3ebb51d534a339e0d85a0aa7967923dc",
         "author": "Igor Minar"
-    },
-    {
-        "y": "2.0.0-rc.0",
-        "x": "2016-05-02T16:38:46Z",
-        "url": "https://api.github.com/repos/angular/angular/commits/00d3b6083c8212ca74add314bd9b68ae02fa8f2d",
-        "author": "Tobias Bosch"
-    },
-    {
-        "y": "2.0.0-alpha.50",
-        "x": "2015-12-09T03:07:43Z",
-        "url": "https://api.github.com/repos/angular/angular/commits/214148d58a424717f7a08c8a73ceeb9a02cde525",
-        "author": "Jeremy Elbourn"
-    },
-    {
-        "y": "2.0.0-alpha.40",
-        "x": "2015-10-09T01:46:46Z",
-        "url": "https://api.github.com/repos/angular/angular/commits/35a61b449a809f268df2b2db9de73d9d9d959bb0",
-        "author": "Naomi Black"
-    },
-    {
-        "y": "2.0.0-alpha.30",
-        "x": "2015-07-08T04:39:10Z",
-        "url": "https://api.github.com/repos/angular/angular/commits/6c933a448531751d138df1437ccd0299c6b6ed11",
-        "author": "Jeff Cross"
-    },
-    {
-        "y": "2.0.0-alpha.20",
-        "x": "2015-04-21T00:53:29Z",
-        "url": "https://api.github.com/repos/angular/angular/commits/fe70c2647a2c30b49d17a5a53b85672afcf55aef",
-        "author": "Yegor Jbanov"
     }
 ]

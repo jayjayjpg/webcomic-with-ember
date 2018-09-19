@@ -8,16 +8,9 @@ module.exports = function(grunt) {
 	// Project configuration
 	grunt.initConfig({
 		pkg: grunt.file.readJSON('package.json'),
-		/* 'babel': {
-			options: {
-				sourceMap: true
-			},
-			dist: {
-				files: {
-					"lib/js/babelled.js": "lib/js/src/index.js"
-				}
-			}
-		}, */
+		browserify: {
+      'js/chartz.js': ['lib/js/src/mycharts.js'],
+		},
 		meta: {
 			banner:
 				'/*!\n' +
@@ -129,26 +122,14 @@ module.exports = function(grunt) {
 			}
 		},
 
-		browserify: {
-		  dist: {
-		    files: {
-		      'build/module.js': ['lib/js/src/mycharts.js']
-		    },
-		  }
-		},
-
 		watch: {
 			js: {
-				files: [ 'Gruntfile.js', 'js/reveal.js', 'lib/js/src/mycharts.js' ],
-				tasks: ['js'],
+				files: [ 'Gruntfile.js', 'js/reveal.js', 'lib/js/src/mycharts.js', 'lib/scripts/data/*.json' ],
+				tasks: ['js', 'browserify'],
 				options: {
 					reload: true,
 				}
 			},
-			/* babel: {
-				files: ['lib/js/src/index.js'],
-				tasks: ['babel'],
-			}, */
 			theme: {
 				files: [
 					'css/theme/source/*.sass',
@@ -195,10 +176,10 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-browserify');
 
 	// Default task
-	grunt.registerTask( 'default', [ 'css', 'js', /* 'babel' */]  );
+	grunt.registerTask( 'default', [ 'css', 'js' ]  );
 
 	// JS task
-	grunt.registerTask( 'js', [ 'jshint', 'uglify', 'qunit' ] );
+	grunt.registerTask( 'js', [ 'jshint', 'uglify', /* 'qunit' */] );
 
 	// Theme CSS
 	grunt.registerTask( 'css-themes', [ 'sass:themes' ] );

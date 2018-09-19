@@ -1,120 +1,84 @@
 [
     {
-        "y": "v2.5.10",
-        "x": "2017-12-12T23:16:40Z",
-        "url": "https://api.github.com/repos/vuejs/vue/commits/a5924a53369ec7c04f0638148f60324652c126eb",
-        "author": "Evan You"
-    },
-    {
-        "y": "v2.5.0",
+        "y": "2.5",
         "x": "2017-10-13T03:07:14Z",
         "url": "https://api.github.com/repos/vuejs/vue/commits/0948d999f2fddf9f90991956493f976273c5da1f",
         "author": "Evan You"
     },
     {
-        "y": "v2.4.0",
+        "y": "2.4",
         "x": "2017-07-13T05:58:37Z",
         "url": "https://api.github.com/repos/vuejs/vue/commits/ac3d1eaea34ee23978d395a84f68154e7e86caa1",
         "author": "Evan You"
     },
     {
-        "y": "v2.3.0",
+        "y": "2.3",
         "x": "2017-04-27T06:22:09Z",
         "url": "https://api.github.com/repos/vuejs/vue/commits/a27c464692c83c3c953e76baaa0e51dc88e4a14a",
         "author": "Evan You"
     },
     {
-        "y": "v2.2.0",
+        "y": "2.2",
         "x": "2017-02-26T04:28:15Z",
         "url": "https://api.github.com/repos/vuejs/vue/commits/2a19f911dc8631d44b7c7e63c4db57ef28ac5e69",
         "author": "Evan You"
     },
     {
-        "y": "v2.1.10",
-        "x": "2017-01-17T17:17:12Z",
-        "url": "https://api.github.com/repos/vuejs/vue/commits/994aee4f869d68a00c3b9d87daa9c8d84623ac42",
-        "author": "Evan You"
-    },
-    {
-        "y": "v2.1.0",
+        "y": "2.1",
         "x": "2016-11-22T16:15:07Z",
         "url": "https://api.github.com/repos/vuejs/vue/commits/f4647b01f8340eb0d21d14f4fc1a720855fee3d5",
         "author": "Evan You"
     },
     {
-        "y": "v2.0.0",
+        "y": "2.0",
         "x": "2016-09-30T18:32:01Z",
         "url": "https://api.github.com/repos/vuejs/vue/commits/156cfb9892d3359d548e27abf5d8b78b421a5a92",
         "author": "Evan You"
     },
     {
-        "y": "v1.0.20",
-        "x": "2016-03-26T21:20:06Z",
-        "url": "https://api.github.com/repos/vuejs/vue/commits/b12e21cb36522f8defab82de3111502a8b97083f",
-        "author": "Evan You"
-    },
-    {
-        "y": "v1.0.10",
-        "x": "2015-11-23T19:59:13Z",
-        "url": "https://api.github.com/repos/vuejs/vue/commits/b7e83e618aace57726c1053b20bb8e6ae3a2ad52",
-        "author": "Evan You"
-    },
-    {
-        "y": "v0.10.0",
+        "y": "0.10",
         "x": "2014-03-23T18:53:01Z",
         "url": "https://api.github.com/repos/vuejs/vue/commits/cd53688d5364aef64aafc986c02e491f8cf90f82",
         "author": "Evan You"
     },
     {
-        "y": "v0.9.0",
+        "y": "0.9",
         "x": "2014-02-25T06:16:28Z",
         "url": "https://api.github.com/repos/vuejs/vue/commits/fbaf56933a4844f251e28a1e2784b67ec5cb9afd",
         "author": "Evan You"
     },
     {
-        "y": "v0.8.0",
+        "y": "0.8",
         "x": "2014-01-27T05:15:47Z",
         "url": "https://api.github.com/repos/vuejs/vue/commits/882c16c76ec0790ccf60856385ea493c9369cd63",
         "author": "Evan You"
     },
     {
-        "y": "v0.7.0",
+        "y": "0.7",
         "x": "2013-12-24T03:31:05Z",
         "url": "https://api.github.com/repos/vuejs/vue/commits/f4861ca9905a170b9a4b185e8a2038dc7c11c58e",
         "author": "Evan You"
     },
     {
-        "y": "1.0.0",
+        "y": "1.0",
         "x": "2015-10-27T01:40:11Z",
         "url": "https://api.github.com/repos/vuejs/vue/commits/d8e9e2ea16153aacdc99a6cc36f7d121a5ab484c",
         "author": "Evan You"
     },
     {
-        "y": "0.12.10",
-        "x": "2015-08-10T03:39:12Z",
-        "url": "https://api.github.com/repos/vuejs/vue/commits/923be291dfcc65f8fd90f1832b17fd5d0fdea488",
-        "author": "Evan You"
-    },
-    {
-        "y": "0.12.0",
+        "y": "0.12",
         "x": "2015-06-12T17:34:29Z",
         "url": "https://api.github.com/repos/vuejs/vue/commits/66b124b7ecf7916ac2506fb5bd8006858006fb35",
         "author": "Evan You"
     },
     {
-        "y": "0.11.10",
-        "x": "2015-05-07T19:00:36Z",
-        "url": "https://api.github.com/repos/vuejs/vue/commits/d257c81a5889d45012f6df39873fba3f8697f0cc",
-        "author": "Evan You"
-    },
-    {
-        "y": "0.11.0",
+        "y": "0.11",
         "x": "2014-11-07T01:52:42Z",
         "url": "https://api.github.com/repos/vuejs/vue/commits/5bc3e30b694dc3b6aeeb87c24f88b9cd7a7259d6",
         "author": "Evan You"
     },
     {
-        "y": "0.6.0",
+        "y": "0.6",
         "x": "2013-12-08T00:32:17Z",
         "url": "https://api.github.com/repos/vuejs/vue/commits/218557cdec830a629252f4a9e2643973dc1f1d2d",
         "author": "Evan You"
