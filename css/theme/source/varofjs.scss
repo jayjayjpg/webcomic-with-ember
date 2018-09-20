@@ -73,6 +73,24 @@ img {
 }
 
 .reveal {
+  .controls {
+    .controls-arrow {
+      color: $js-black;
+      font-size: 1em;
+      width: 1.6em;
+      &:before, &:after {
+        width: 1.6em;
+      }
+    }
+    .progress {
+      color: rgba(30,30,30, 0.5);      
+    }
+    .navigate-left {
+      .controls-arrow {
+        color: rgba(30,30,30, 0.5);
+      }
+    }
+  }
   .slides {
     section {
       h1, h2, h3, h4, h5, p {
@@ -173,6 +191,12 @@ img {
 
 .centered {
   margin: 0 auto;
+}
+
+.supersmall-list {
+  li {
+    font-size: 11px;
+  }
 }
 
 .ancestor-tree {

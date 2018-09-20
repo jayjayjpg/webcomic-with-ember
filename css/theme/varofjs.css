@@ -40,6 +40,19 @@ body {
 img.fill {
   height: 100%; }
 
+.reveal .controls .controls-arrow {
+  color: #222222;
+  font-size: 1em;
+  width: 1.6em; }
+  .reveal .controls .controls-arrow:before, .reveal .controls .controls-arrow:after {
+    width: 1.6em; }
+
+.reveal .controls .progress {
+  color: rgba(30, 30, 30, 0.5); }
+
+.reveal .controls .navigate-left .controls-arrow {
+  color: rgba(30, 30, 30, 0.5); }
+
 .reveal .slides section h1, .reveal .slides section h2, .reveal .slides section h3, .reveal .slides section h4, .reveal .slides section h5, .reveal .slides section p {
   font-family: 'Raleway', sans-serif;
   text-transform: none; }
@@ -110,6 +123,9 @@ img.fill {
 
 .centered {
   margin: 0 auto; }
+
+.supersmall-list li {
+  font-size: 11px; }
 
 .ancestor-tree {
   position: relative;

@@ -63,6 +63,12 @@
 						</div>
 					</div>
 				</section>
+				<section data-background-image="./lib/img/emberfankid.jpeg">
+				 <ul style="background-color: rgba(247,223,30, 0.7); padding: 1em; border-radius: 2px; list-style: none;">
+           <li class="light fragment fade-up">Ember Learning Team 🤓</li>
+				   <li class="light fragment fade-up"><img src="./lib/img/logos/embertimes.png" alt="Ember Times Logo" height="100"></li>
+			   </ul>
+				</section>
 				<section data-background-image="./lib/img/biology.jpg">
 
 				</section>
@@ -83,6 +89,8 @@
 							</i></p>
 					</section>
 					<section data-background-image="./lib/img/frameworks.png">
+						<div class="fragment fade-up" style="background-color: rgb(247,223,30); padding: 1em; border-radius: 2px;"><h2 id="typefield-chapter1"></h2></div>
+						<div id="show-js-title-1" class="fragment fade-up"></div>
 						<aside class="notes">something something JavaScript ecosystems current state</h1>
 						current state + development
 					  </aside>
@@ -97,43 +105,27 @@
 							<canvas id="slide-2b"></canvas>
 						</div>
 					</section>
-					<!-- <section>
+					<section>
 						<div class="container">
 							<div class="row">
-								<div class="col col-4 col-extra-low">
-                  <img class="fill" src="/lib/img/so-react.svg" alt="stackoverflow-react-trend" />
+								<div class="col col-6 col-low">
+									<img class="fill" src="/lib/img/so-mootools.svg" alt="stackoverflow-mootools-trend" />
 								</div>
-								<div class="col col-4 col-extra-low">
-							    <img class="fill" src="/lib/img/so-angular.svg" alt="stackoverflow-angular-trend" />
-						    </div>
-								<div class="col col-4 col-extra-low">
+								<div class="col col-6 col-low">
                   <img class="fill" src="/lib/img/so-vue.svg" alt="stackoverflow-vue-trend" />
 								</div>
 						  </div>
+
 							<div class="row">
-								<div class="col col-4 col-extra-low">
+								<div class="col col-6 col-low">
                   <img class="fill" src="/lib/img/so-aurelia.svg" alt="stackoverflow-aurelia-trend" />
 								</div>
-								<div class="col col-4 col-extra-low">
-							    <img class="fill" src="/lib/img/so-ember.svg" alt="stackoverflow-ember-trend" />
-						    </div>
-								<div class="col col-4 col-extra-low">
-							    <img class="fill" src="/lib/img/so-backbone.svg" alt="stackoverflow-backbone-trend" />
-						    </div>
-						  </div>
-							<div class="row">
-								<div class="col col-4 col-extra-low">
-                  <img class="fill" src="/lib/img/so-meteor.svg" alt="stackoverflow-meteor-trend" />
+								<div class="col col-6 col-low">
+									<img class="fill" src="/lib/img/so-meteor.svg" alt="stackoverflow-meteor-trend" />
 								</div>
-								<div class="col col-4 col-extra-low">
-							    <img class="fill" src="/lib/img/so-mootools.svg" alt="stackoverflow-mootools-trend" />
-						    </div>
-								<div class="col col-4 col-extra-low">
-							    <img class="fill" src="/lib/img/so-javascript.svg" alt="stackoverflow-javascript-trend" />
-						    </div>
 						  </div>
 						</div>
-					</section> -->
+					</section>
 					<section>
 						<div class="row">
 							<div class="col">
@@ -150,6 +142,7 @@
 					</section>
 					<section>
 						<div class="container">
+							<div class="framework-theme"><img src="./lib/img/logos/segmentfault.jpg" alt="sf"></div>
 							<canvas id="slide-4a"></canvas>
 							<div id="show-react" class="fragment fade-out"></div>
 							<div id="show-angular" class="fragment fade-out"></div>
@@ -159,16 +152,16 @@
 						<h2>Communities</h2>
 						<div class="row centered">
 							<div class="col col-low fragment fade-up">
-								<img class="fill" src="/lib/img/forums/ember.png" alt="Ember Discourse" />
+								<img class="fill shadowed" src="/lib/img/forums/ember.png" alt="Ember Discourse" />
 							</div>
 							<div class="col col-low fragment fade-in">
-								<img class="fill" src="/lib/img/forums/aurelia.png" alt="Aurelia Discourse" />
+								<img class="fill shadowed" src="/lib/img/forums/aurelia.png" alt="Aurelia Discourse" />
 							</div>
 							<div class="col col-low fragment fade-in">
-								<img class="fill" src="/lib/img/forums/vue.png" alt="Vue Discourse" />
+								<img class="fill shadowed" src="/lib/img/forums/vue.png" alt="Vue Discourse" />
 							</div>
 							<div class="col col-low fragment fade-in">
-								<img class="fill" src="/lib/img/forums/react.png" alt="React Discourse" />
+								<img class="fill shadowed" src="/lib/img/forums/react.png" alt="React Discourse" />
 							</div>
 						</div>
 					</section>
@@ -178,13 +171,14 @@
 						  <canvas id="slide-5a"></canvas>
 					  </div>
 					</section>
-					<section>
+					<!-- <section>
 						<div class="container">
 						  <canvas id="slide-1a"></canvas>
 					  </div>
-					</section>
+					</section> -->
 					<section>
-						<h1>Evolution of the JavaScript ecosystem</h1>
+						<h1 id="typefield-chapter2"></h1>
+						<div id="show-js-title-2" class="fragment fade-up"></div>
 					</section>
 					<section data-background-image="./lib/img/darwinfinch.jpg" style="background-size: contain;">
 
@@ -246,23 +240,28 @@
 						</div>
 					</section>
 					<section>
-            <h1>Divergent Evolution</h1>
-						<quote>
+						<quote style="font-style: italic; color: #555555; font-size: 0.8em;">
               "I figured, what if I could just extract the part that I really liked about Angular and build something really lightweight without all the extra concepts involved?"
 							"That was basically how Vue started."
 						</quote>
-						<p class="small-title"><a href="https://medium.freecodecamp.org/between-the-wires-an-interview-with-vue-js-creator-evan-you-e383cbf57cc4">Evan You, from "Between the Wires" with Vivian Cromwell</a></p>
+						<p class="small-title" style="font-size: 0.6em;"><a href="https://medium.freecodecamp.org/between-the-wires-an-interview-with-vue-js-creator-evan-you-e383cbf57cc4">Evan You, from "Between the Wires" with Vivian Cromwell</a></p>
 					</section>
 					<section data-background-image="./lib/img/tools.jpg">
-            <h1>Divergent Evolution is about Creating Tools for Different Jobs</h1>
+						<div class="fragment fade-up" style="background-color: rgba(247,223,30, 0.7); padding: 1em; border-radius: 2px;">
+              <h2>Divergent Evolution: Different Jobs Require Different Tools</h2>
+					  </div>
 					</section>
 					<section>
 						<div class="row">
               <div class="col col-6 fragment fade-up">
-                <img src="./lib/img/shark.jpg" alt="Shark">
+								<div style="max-height: 6em; overflow: hidden; padding: 0;">
+                  <img src="./lib/img/shark.jpg" alt="Shark">
+							  </div>
 							</div>
 							<div class="col col-6 fragment fade-up">
-                <img src="./lib/img/dolphin.jpg" alt="Dolphin">
+								<div style="max-height: 6em; overflow: hidden; padding: 0;">
+                  <img src="./lib/img/dolphin.jpg" alt="Dolphin">
+								</div>
 							</div>
 						</div>
             <h1 class="fragment fade-up">Convergent Evolution</h1>
@@ -333,7 +332,8 @@
 						<div class="row" style="position: relative;">
 							<div class="col col-12 col-less-tall">
 							<div class="fragment fade-in fade-out fade-multiple wide">
-		            <pre class="javascript"><code>import Route from '@ember/route';
+		            <pre class="javascript"><code>// app/routes/post.js
+import Route from '@ember/route';
 
 export default Route.extend({
   model() {
@@ -347,8 +347,8 @@ export default Route.extend({
 import Component from '@ember/component';
 
 export default Component.extend({
-	tagName: 'ul',
-	comments: null,
+  tagName: 'ul',
+  comments: null,
 });
 
 // app/templates/components/comment-list.hbs
@@ -369,29 +369,52 @@ export default Component.extend({
               </div>
 					  </div>
 					</section>
+<section>
+	<h4>Taking <br> Data Down, Actions Up <br> Further</h4>
+  <img class="shadowed" src="./lib/img/logos/ember-redux.png" height="200" />
+</section>
+<section>
+	<div class="fragment fade-up">
+    <h2>Convergent Evolution: Adopting Similar Solutions To Similar Problems</h2>
+  </div>
+</section>
 <section data-background-image="./lib/img/ecosystem2.jpg">
+
 </section>
 <section>
   <h2 id="typefield"></h2>
 	<div id="start-typing" class="fragment fade-up"></div>
 </section>
-					<section>
-            <div class="row">
-             <h2>Sources</h2>
-						 <hr>
-						 <h3>Images</h3>
-						 <ul>
-              <li>
-								<a href="https://hackernoon.com/how-it-feels-to-learn-javascript-in-2016-d3a717dd577f">
-								  Framework Overview from @jjperezaguinaga's blog post "How it feels to learn JavaScript in 2016"
-							  </a>
-						  </li>
-							<li>
-
-							</li>
-						 </ul>
-						</div>
-					</section>
+<!-- <section>
+  <h5>This presentation couldn't have been made without the support of the following JavaScript ecosystems</h5>
+	<ul class="supersmall-list">
+		<li>
+			<a href="https://github.com/hakimel/reveal.js/">
+				Slides with RevealJS
+			</a>
+		</li>
+		<li>
+			<a href="https://highlightjs.org/">
+				Code Highlighting with Highlight.js
+			</a>
+		</li>
+		<li>
+			<a href="http://datamaps.github.io/">
+				Data Map Visualization with DataMaps
+			</a>
+		</li>
+		<li>
+			<a href="http://datamaps.github.io/">
+				...
+			</a>
+		</li>
+	</ul>
+</section> -->
+<section data-background-color="#f7df1e">
+	<h1>Thank you ✨✨✨</h1>
+	<small class="right" style="font-style: italic; float: right; margin-top: 2em;"><a href="https://twitter.com/jjordan_dev" target="react-comp-blogpost">
+		<img src="./lib/img/logos/twitter.png" alt="Twitter Logo" style="height: 30px; width: 30px; position: relative; top: -13px;"/>@jjordan_dev</a></small>
+</section>
 			  <!-- </section> -->
 			</div>
 		</div>

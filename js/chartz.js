@@ -27,6 +27,14 @@ let barChartOptions = {
 let timedBarChartOptions = {
   fill: true,
   borderWidth: 2,
+  layout: {
+    /* padding: {
+      top: 0,
+      left: 0,
+      bottom: 0,
+      right: 200,
+    } */
+  },
   tooltips: {
     enabled: true,
     // mode: 'nearest',
@@ -40,6 +48,8 @@ let timedBarChartOptions = {
       }],
       xAxes: [{
         type: 'time',
+        maxBarThickness: 100,
+        offset: true,
       }],
   }
 };
@@ -214,7 +224,7 @@ function updateChart(chart, type, subType, newData, cInd) {
   }
 }
 
-createSlide1();
+// createSlide1(); // Slide with relaease timeline
 createChart('2a', 'NPM Downloads per Month', 'bar', 'time', dataCollection2);
 createChart('2b', 'NPM Downloads per Month', 'bar', 'time', dataCollection2b);
 createChart('3a', 'CLIs NPM Downloads per Month', 'bar', 'time', dataCollection3);
@@ -351,13 +361,24 @@ var pointerLagos = {
 };
 
 function typeWriter(){
-  console.log("...typing");
+  var frameworkNames = ["AngularJS", "Aurelia", "Backbone.js", "Cappuccino", "Chaplin.js", "Echo", "Ember.js", "Enyo", "Ext JS", "Google Web Toolkit", "JavaScriptMVC", "Knockout", "Meteor", "Mojito", "MooTools", "Node.js", "OpenUI5 of SAP", "Prototype JavaScript Framework", "React", "Rialto Toolkit", "SproutCore", "Vue.js", "Wakanda Framework"];
   var options = {
-    strings: ["<i>First</i> sentence.", "&amp; a second sentence."],
-    typeSpeed: 40
+    strings: frameworkNames,
+    typeSpeed: 40,
+    shuffle: true,
+    loop: true,
   }
 
  var typed = new Typed("#typefield", options);
+}
+
+function typeIt(selector, strings) {
+  var options = {
+    strings,
+    typeSpeed: 40,
+  };
+  console.log("type");
+  return new Typed(selector, options);
 }
 
 //draw bubbles for bombs
@@ -387,6 +408,12 @@ Reveal.addEventListener( 'fragmentshown', function( event ) {
     soChart.update();
   } else if (event.fragment.id === 'start-typing') {
     typeWriter();
+  } else if (event.fragment.id === 'show-js-title-1') {
+    typeIt('#typefield-chapter1', ["Characterizing JavaScript Ecosystems"]);
+    window.resizeTo(window.innerWidth - 1, window.innerHeight);
+  } else if (event.fragment.id === 'show-js-title-2') {
+    typeIt('#typefield-chapter2', ["JavaScript ^1000 Evolution"]);
+    window.resizeTo(window.innerWidth - 1, window.innerHeight);
   }
 });
 
