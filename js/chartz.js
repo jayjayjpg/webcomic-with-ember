@@ -136,18 +136,18 @@ let dataCollection2b = [dataSetEmberDownloads, dataSetAngularDownloads, dataSetR
 
 // NPM Downloads CLIs
 let dataCollection3 = [
-  require('../../scripts/data/ember-cli-npm-downloads.json'),
-  require('../../scripts/data/angular-cli-npm-downloads.json'),
-  require('../../scripts/data/aurelia-cli-npm-downloads.json'),
-  require('../../scripts/data/vue-cli-npm-downloads.json'),
+  require('./../../scripts/data/ember-cli-npm-downloads.json'),
+  require('./../../scripts/data/angular-cli-npm-downloads.json'),
+  require('./../../scripts/data/aurelia-cli-npm-downloads.json'),
+  require('./../../scripts/data/vue-cli-npm-downloads.json'),
 ];
 
 let dataCollection4 = [
-  require('../../scripts/data/vue-so-sf.json')
+  require('./../../scripts/data/vue-so-sf.json')
 ];
 
 let dataCollection5 = [
-  require('../../scripts/data/discord-members.json'),
+  require('./../../scripts/data/discord-members.json'),
 ];
 
 function createChart(slideNum, label, type, subType, dataCollection) {
@@ -401,10 +401,10 @@ Reveal.addEventListener( 'fragmentshown', function( event ) {
     pointers.push(pointerLagos);
     map.bubbles(pointers);
   } else if (event.fragment.id === 'show-react') {
-    updateChart(soChart, 'bar', 'category', require('../../scripts/data/react-so-sf.json'), 1);
+    updateChart(soChart, 'bar', 'category', require('./../../scripts/data/react-so-sf.json'), 1);
     soChart.update();
   } else if (event.fragment.id === 'show-angular') {
-    updateChart(soChart, 'bar', 'category', require('../../scripts/data/angular-so-sf.json'), 3);
+    updateChart(soChart, 'bar', 'category', require('./../../scripts/data/angular-so-sf.json'), 3);
     soChart.update();
   } else if (event.fragment.id === 'start-typing') {
     typeWriter();
@@ -417,7 +417,7 @@ Reveal.addEventListener( 'fragmentshown', function( event ) {
   }
 });
 
-},{"../../scripts/data/angular-cli-npm-downloads.json":2,"../../scripts/data/angular-npm-downloads.json":3,"../../scripts/data/angular-releases.json":4,"../../scripts/data/angular-so-sf.json":5,"../../scripts/data/angularjs-releases.json":6,"../../scripts/data/aurelia-cli-npm-downloads.json":7,"../../scripts/data/aurelia-npm-downloads.json":8,"../../scripts/data/aurelia-releases.json":9,"../../scripts/data/discord-members.json":10,"../../scripts/data/ember-cli-npm-downloads.json":11,"../../scripts/data/ember-npm-downloads.json":12,"../../scripts/data/ember-releases.json":13,"../../scripts/data/react-npm-downloads.json":14,"../../scripts/data/react-releases.json":15,"../../scripts/data/react-so-sf.json":16,"../../scripts/data/vue-cli-npm-downloads.json":17,"../../scripts/data/vue-npm-downloads.json":18,"../../scripts/data/vue-releases.json":19,"../../scripts/data/vue-so-sf.json":20}],2:[function(require,module,exports){
+},{"../../scripts/data/angular-npm-downloads.json":3,"../../scripts/data/angular-releases.json":4,"../../scripts/data/angularjs-releases.json":6,"../../scripts/data/aurelia-npm-downloads.json":8,"../../scripts/data/aurelia-releases.json":9,"../../scripts/data/ember-npm-downloads.json":12,"../../scripts/data/ember-releases.json":13,"../../scripts/data/react-npm-downloads.json":14,"../../scripts/data/react-releases.json":15,"../../scripts/data/vue-npm-downloads.json":18,"../../scripts/data/vue-releases.json":19,"./../../scripts/data/angular-cli-npm-downloads.json":2,"./../../scripts/data/angular-so-sf.json":5,"./../../scripts/data/aurelia-cli-npm-downloads.json":7,"./../../scripts/data/discord-members.json":10,"./../../scripts/data/ember-cli-npm-downloads.json":11,"./../../scripts/data/react-so-sf.json":16,"./../../scripts/data/vue-cli-npm-downloads.json":17,"./../../scripts/data/vue-so-sf.json":20}],2:[function(require,module,exports){
 module.exports={"name":"@angular/cli","data":[{"x":"2017-09-01","y":1246934},{"x":"2017-10-01","y":1434166},{"x":"2017-11-01","y":1693484},{"x":"2017-12-01","y":1548591},{"x":"2018-01-01","y":1919842},{"x":"2018-02-01","y":1928211},{"x":"2018-03-01","y":2153338},{"x":"2018-04-01","y":2059442},{"x":"2018-05-01","y":2329183},{"x":"2018-06-01","y":4580209},{"x":"2018-07-01","y":4948680},{"x":"2018-08-01","y":5344218}]}
 },{}],3:[function(require,module,exports){
 module.exports={"name":"@angular/core","data":[{"x":"2017-09-01","y":1885029},{"x":"2017-10-01","y":2168899},{"x":"2017-11-01","y":2369837},{"x":"2017-12-01","y":2118275},{"x":"2018-01-01","y":2585966},{"x":"2018-02-01","y":2523632},{"x":"2018-03-01","y":2862202},{"x":"2018-04-01","y":2618252},{"x":"2018-05-01","y":2842682},{"x":"2018-06-01","y":5791328},{"x":"2018-07-01","y":6864699},{"x":"2018-08-01","y":7573621}]}
