@@ -6,6 +6,7 @@
 
 		<title>Crafting Web Comics with Ember</title>
 
+    <link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
 		<link rel="stylesheet" href="css/reveal.css">
 		<link rel="stylesheet" href="css/theme/white.css">
 		<link rel="stylesheet" href="css/theme/varofjs.css">
@@ -33,12 +34,9 @@
 		<div class="reveal">
 			<div class="slides">
 				<section>
-					<h1>JavaScript Diversity</h1>
+					<h1>Crafting Web Comics With Ember</h1>
 					<small class="right" style="font-style: italic; float: right; margin-top: 2em;"><a href="https://twitter.com/jjordan_dev" target="react-comp-blogpost">
 						<img src="./lib/img/logos/twitter-white.png" alt="Twitter Logo" style="height: 30px; width: 30px; position: relative; top: -13px; margin-right: 0.2em;"/>@jjordan_dev</a></small>
-				</section>
-				<section>
-          <h1>&lt;ConfCred&gt;<span class="fragment fade-up">💁🏾</span></h1>
 				</section>
 				<section data-background-image="./lib/img/berlin.jpg">
 
@@ -63,22 +61,31 @@
 						</div>
 					</div>
 				</section>
-				<section data-background-image="./lib/img/emberfankid.jpeg">
-				 <ul class="fragment fade-up color-box" style="padding: 1em; border-radius: 2px; list-style: none;">
-           <li class="fragment fade-up">Ember Learning Team 🤓</li>
-				   <li class="fragment fade-up"><img src="./lib/img/logos/embertimes.png" alt="Ember Times Logo" height="100"></li>
-			   </ul>
+				<section class="panel-section" data-background-image="./lib/img/emberfankid.jpeg">
+					<article class="fragment fade-up">
+					 <ul class="fragment fade-up" style="padding: 1em; list-style: none;">
+	           <li class="fragment fade-up">Ember Learning Core 🤓</li>
+					   <li class="fragment fade-up"><a href="https://the-emberjs-times.ongoodbits.com/" target="embertimes"><img src="./lib/img/logos/embertimes.png" alt="Ember Times Logo" height="100"></a></li>
+						 <li class="fragment fade-up"><a style="display: flex; align-items: center;" href="https://www.meetup.com/Ember-js-Berlin/" target="meeetup"><img style="margin-right: 0.5em;" src="./lib/img/emberliner.jpeg" alt="Ember Berlin Meetup" height="100"><small style="flex: 1;">Ember Berlin Meetup: Join us at <strong>Nov 6th!</strong></small></a></li>
+				   </ul>
+			   </article>
 				</section>
 				<section data-background-image="./lib/img/comicbooks.jpeg">
 
 				</section>
-				<!-- <section class="main-track"> -->
-					<section>
-						<div class="row">
-							<div class="fragment fade-up col col-4 emoji-large">📙</div>
-							<div class="fragment fade-up col col-4 center"><div class="centered" style="position: relative; left: 3em; top: 3.5em;"><div class="arrow arrow--right"></div></div></div>
-							<div class="fragment fade-up col col-4 emoji-large">🌐</div>
-					  </div>
+				<section data-background-image="./lib/img/sm-1.jpeg">
+
+					<small style="margin-top: 25em;" class="small-title light"><a class="light" href="https://www.imdb.com/name/nm0847603/">Sailor Moon Series by Naoko Takeuchi</a></small>
+				</section>
+					<section class="panel-section">
+						<article class="fragment fade-up">
+							<div class="row">
+								<div class="fragment fade-up col col-4 emoji-large">📙</div>
+								<div class="fragment fade-up col col-4 center"><div class="centered" style="position: relative; left: 3em; top: 3.5em;"><div class="arrow arrow--right"></div></div></div>
+								<div class="fragment fade-up col col-4 emoji-large">🌐</div>
+								<h3>2018: Comics Go Web!</h3>
+						  </div>
+					  </article>
 					</section>
 					<section>
             <p><img class="shadowed" height="500" src="./lib/img/webcomic-one.png" alt="Nedroid Comic Example"/></p>
@@ -93,339 +100,386 @@
 						<small class="small-title"><a href="http://phallaina.nouvelles-ecritures.francetv.fr/phallaina_en.php">Web Comic Example "Phallaina" by Marietta Ren</a></small>
 					</section>
 					<section>
-						<h1>JavaScript Ecosystem</h1>
-						<span style="font-size: 0.8em; font-weight: bold;">/ˈdʒɑːvə skɹɪpt ˈikoʊˌsɪstəm/</span>
-						<p>
-							<i>
-								the community of JavaScript developers, the variety of technologies they are using and their interrelationships
-							</i></p>
+              <h2>You can do it, too!</h2>
+							<p><img class="shadowed" height="500" src="./lib/img/drawing.gif" alt="Web Comics One Step Away"/></p>
 					</section>
-					<section data-background-image="./lib/img/frameworks.png">
-						<div class="fragment fade-up" style="background-color: rgb(247,223,30); padding: 1em; border-radius: 2px;"><h2 id="typefield-chapter1"></h2></div>
-						<div id="show-js-title-1" class="fragment fade-up"></div>
-						<aside class="notes">something something JavaScript ecosystems current state</h1>
-						current state + development
-					  </aside>
+					<section data-background-image="./lib/img/anatomy.jpeg">
+						  <div class="fragment fade-up color-box">
+                <h1>Anatomy of a Comic</h1>
+						  </div>
 					</section>
 					<section>
-						<div class="container">
-							<canvas id="slide-2a"></canvas>
-						</div>
+              <h2>Anatomy of a Comic</h2>
+							<div class="row" style="display: flex; align-items: center;">
+								<div class="fragment fade-up col col-4"><img class="shadowed" src="./lib/img/flipping.gif" alt="Book flipping pages"/></div>
+								<div class="fragment fade-up col col-4" style="background-color: #ffffff;"><img class="shadowed" src="./lib/img/panels.png" alt="Comic Panels"/></div>
+								<div class="fragment fade-up col col-4"><img class="shadowed" height="400" src="./lib/img/batguy-sprite-3.png" alt="Racoon Batman Crossover Character"/></div>
+							</div>
 					</section>
-					<section>
-						<div class="container">
-							<canvas id="slide-2b"></canvas>
-						</div>
-					</section>
-					<!-- <section>
-						<div class="container">
+					<section class="panel-section">
+						<article>
+						<div class="border-wrapper">
+							<h2 class="fragment fade-up">Comic Pages</h2>
 							<div class="row">
-								<div class="col col-6 col-low">
-									<img class="fill" src="/lib/img/so-mootools.svg" alt="stackoverflow-mootools-trend" />
-								</div>
-								<div class="col col-6 col-low">
-                  <img class="fill" src="/lib/img/so-vue.svg" alt="stackoverflow-vue-trend" />
-								</div>
-						  </div>
-
+								<div class="fragment fade-up col col-4 bordered"><div></div></div>
+								<div class="fragment fade-up col col-4 bordered"><div></div></div>
+								<div class="fragment fade-up col col-4 bordered"><div></div></div>
+							</div>
 							<div class="row">
-								<div class="col col-6 col-low">
-                  <img class="fill" src="/lib/img/so-aurelia.svg" alt="stackoverflow-aurelia-trend" />
-								</div>
-								<div class="col col-6 col-low">
-									<img class="fill" src="/lib/img/so-meteor.svg" alt="stackoverflow-meteor-trend" />
-								</div>
-						  </div>
-						</div>
-					</section> -->
-					<section>
-						<div class="row">
-							<div class="col">
-								<img class="fill" src="./lib/img/so-all-javascript.svg" alt="stackoverflow-all-js-trend" />
+								<div class="fragment fade-up col col-4 bordered"><div></div></div>
+								<div class="fragment fade-up col col-4 bordered"><div></div></div>
+								<div class="fragment fade-up col col-4 bordered"><div></div></div>
 							</div>
-						</div>
-					</section>
-					<section>
-						<div id="world-map-container" style="position: relative; width: 1000px; height: 500px; margin: 0 auto; left: -500px;"></div>
-						<div id="bubble-us" class="fragment fade-up"></div>
-						<div id="bubble-china" class="fragment fade-up"></div>
-						<div id="bubble-india" class="fragment fade-up"></div>
-						<div id="bubble-lagos" class="fragment fade-up"></div>
-					</section>
-					<section>
-						<div class="container">
-							<div class="framework-theme"><img src="./lib/img/logos/segmentfault.jpg" alt="sf"></div>
-							<canvas id="slide-4a"></canvas>
-							<div id="show-react" class="fragment fade-out"></div>
-							<div id="show-angular" class="fragment fade-out"></div>
-						</div>
-					</section>
-					<!-- <section style="text-align: center;">
-						<h2>Communities</h2>
-						<div class="row centered">
-							<div class="col col-low fragment fade-up">
-								<img class="fill shadowed" src="/lib/img/forums/ember.png" alt="Ember Discourse" />
-							</div>
-							<div class="col col-low fragment fade-in">
-								<img class="fill shadowed" src="/lib/img/forums/aurelia.png" alt="Aurelia Discourse" />
-							</div>
-							<div class="col col-low fragment fade-in">
-								<img class="fill shadowed" src="/lib/img/forums/vue.png" alt="Vue Discourse" />
-							</div>
-							<div class="col col-low fragment fade-in">
-								<img class="fill shadowed" src="/lib/img/forums/react.png" alt="React Discourse" />
-							</div>
-						</div>
-					</section> -->
-					<section style="text-align: center;">
-						<h2>Communities</h2>
-						<div class="container">
-						  <canvas id="slide-5a"></canvas>
 					  </div>
+					  </article>
 					</section>
-					<!-- <section>
-						<div class="container">
-						  <canvas id="slide-1a"></canvas>
-					  </div>
-					</section> -->
-					<section>
-						<h1 id="typefield-chapter2"></h1>
-						<div id="show-js-title-2" class="fragment fade-up"></div>
-					</section>
-					<section data-background-image="./lib/img/darwin.jpg">
-
-					</section>
-					<section data-background-image="./lib/img/darwinfinch.jpg">
-
-					</section>
-					<section>
-            <h1>Divergent Evolution</h1>
-					</section>
-					<section>
-						<h2>Divergent Evolution</h2>
-            <a href="https://github.com/emberjs/ember.js/tree/sc-v2.0.beta.1">
-							<img class="shadowed" src="./lib/img/scfork.png" alt="Ember JS sc-pre1.0-release on Github">
-						</a>
-					</section>
-					<section>
-						<h2>Divergent Evolution</h2>
+					<section data-background-color="#222222">
 						<div class="row">
-              <div class="col col-6">
-                <div class="ancestor-tree">
-									<div class="tree-blob ancestor sproutcore">
-										<p class="small-title"><a href="https://github.com/emberjs/ember.js/tree/sc-v2.0.beta.1">sc-v2.0.beta.1</a></p>
-								  </div>
-									<div class="tree-blob ember right fragment fade-up">
-                    <p class="small-title"><a href="https://github.com/emberjs/ember.js/tree/v3.4.1">Ember 3.4.1</a></p>
-                  </div>
-									<div class="tree-blob sproutcore left fragment fade-up">
-										<p class="small-title"><a href="https://github.com/sproutcore/sproutcore">SproutCore 2 REL-1.11</a></p>
-                  </div>
-								</div>
-							</div>
-							<div class="col col-6 fragment fade-up">
-                <div class="ancestor-tree">
-									<div class="tree-blob ancestor embercli">
-	 								  <p class="small-title"><a href="https://github.com/angular/angular-cli/tree/0.0.13">Dec 2015</a></p>
-								  </div>
-									<div class="tree-blob angularcli right fragment fade-up">
-                    <p class="small-title">Angular CLI 6.2.2</p>
-                  </div>
-									<div class="tree-blob embercli left fragment fade-up">
-										<p class="small-title"><a href="https://github.com/ember-cli/ember-cli/releases/tag/v3.4.2">Ember CLI 3.4.2</a></p>
-                  </div>
-								</div>
-							</div>
+							<h3>Defining Pages as Routes</h3>
 						</div>
-					</section>
-					<section>
-						<h2>Divergent Evolution</h2>
-						  <div class="row">
-							  <div class="col col-6">
-							    <img class="shadowed" src="./lib/img/ngserve.gif" alt="Angular CLI in Action: Terminal Demo for the commands ng new and ng serve">
-								</div>
-								<div class="col col-6">
-							    <img class="shadowed" src="./lib/img/emberserve.gif" alt="Ember CLI in Action: Terminal Demo for the commands ember new and ember serve">
-								</div>
-						  </div>
-					</section>
-					<section>
-						<div class="container">
-							<canvas id="slide-3a"></canvas>
-						</div>
-					</section>
-					<section>
-						<quote style="font-style: italic; color: #555555; font-size: 0.8em;">
-              "I figured, what if I could just extract the part that I really liked about Angular and build something really lightweight without all the extra concepts involved?"
-							"That was basically how Vue started."
-						</quote>
-						<p class="small-title" style="font-size: 0.6em;"><a href="https://medium.freecodecamp.org/between-the-wires-an-interview-with-vue-js-creator-evan-you-e383cbf57cc4">Evan You, from "Between the Wires" with Vivian Cromwell</a></p>
-					</section>
-					<section data-background-image="./lib/img/tools.jpg">
-						<div class="fragment fade-up" style="background-color: rgba(247,223,30, 0.7); padding: 1em; border-radius: 2px;">
-              <h2>Divergent Evolution: Different Jobs Require Different Tools</h2>
-					  </div>
-					</section>
-					<section>
-						<div class="row">
-              <div class="col col-6 fragment fade-up">
-								<div style="max-height: 6em; overflow: hidden; padding: 0;">
-                  <img src="./lib/img/shark.jpg" alt="Shark">
-							  </div>
-							</div>
-							<div class="col col-6 fragment fade-up">
-								<div style="max-height: 6em; overflow: hidden; padding: 0;">
-                  <img src="./lib/img/dolphin.jpg" alt="Dolphin">
-								</div>
-							</div>
-						</div>
-            <h1 class="fragment fade-up">Convergent Evolution</h1>
-					</section>
-					<section data-background-color="#222222" data-background-position="right">
-						<div class="row">
-							<h3 class="light">Container Components</h3>
-						</div>
-						<div class="framework-theme"><img src="./lib/img/logos/react.png"></div>
 						<div class="row" style="position: relative;">
 							<div class="col col-12 col-less-tall">
+								<div class="fragment fade-in fade-out fade-multiple wide">
+									<pre class="bash"><code>https://my-comic.com/chapters/</code></pre>
+		</div>
+				<div class="fragment fade-in fade-out fade-multiple wide">
+					<pre class="bash"><code>https://my-comic.com/chapters/1</code></pre>
+</div>
 							<div class="fragment fade-in fade-out fade-multiple wide">
-		            <pre class="javascript"><code class="blurred dark">class CommentList extends React.Component {
-  render() {
-    return (
-      &lt;ul&gt;
-        {this.state.comments.map(c => (
-          &lt;li>{c.body} — by {c.author} on {c.date}&lt;/li&gt;
-        ))}
-      &lt;/ul&gt;
-    );
-  }
-}</code></pre>
-</div>
-<div class="fragment fade-in fade-out fade-multiple wide">
-	<pre class="javascript"><code class="blurred dark">class CommentList extends React.Component {
-  this.state = { comments: [] };
+								<pre class="javascript"><code>// app/router.js
+import EmberRouter from '@ember/routing/router';
 
-  componentDidMount() {
-    fetchComments(comments =>
-    this.setState({ comments: comments }));
-  }
+Router.map(function() {
+  this.route('chapters');
+});
 
-  render() { /* ... */ }
-}</code></pre>
-</div>
-<div class="fragment fade-in fade-out fade-multiple wide">
-<pre class="javascript"><code>const CommentList = props =>
-  <ul>
-    {props.comments.map(c => (
-      &lt;li&gt;{c.body}—{c.author}&lt;/li&gt;
-    ))}
-  </ul></code></pre>
-</div>
-<div class="fragment fade-in fade-out fade-multiple wide">
-	<pre class="javascript"><code class="blurred dark">class CommentListContainer extends React.Component {
-  state = { comments: [] };
-  componentDidMount() {
-    fetchSomeComments(comments =>
-      this.setState({ comments: comments }));
-  }
-  render() {
-    return &lt;CommentList comments={this.state.comments} /&gt;;
-  }
-}</code></pre>
-</div>
-              </div>
-					  </div>
-						<div class="row">
-							<small class="right" style="font-style: italic; float: right; margin-top: 2em;">from <a href="https://medium.com/@learnreact/container-components-c0e67432e005" target="react-comp-blogpost">Container Components</a> by @chantastic</small>
-						</div>
-					</section>
-					<section data-background-color="#9b2918">
-						<div class="row">
-							<h3>Data Down, Actions Up</h3>
-						</div>
-						<div class="framework-theme"><img src="./lib/img/logos/ember.png" style="width: 2em;"></div>
-						<div class="row" style="position: relative;">
-							<div class="col col-12 col-less-tall">
-							<div class="fragment fade-in fade-out fade-multiple wide">
-		            <pre class="javascript"><code>// app/routes/post.js
-import Route from '@ember/route';
+export default Router;</code></pre>
+	</div>
+	<div class="fragment fade-in fade-out fade-multiple wide">
+		<pre class="javascript"><code>// app/router.js
+import EmberRouter from '@ember/routing/router';
+
+Router.map(function() {
+  this.route('chapters', function() {
+    this.route('chapter', { path: '/:id' });
+  });
+});
+
+export default Router;</code></pre>
+	</div>
+	<div class="fragment fade-in fade-out fade-multiple wide">
+	<pre class="javascript"><code>// app/routes/chapters/chapter.js
+import Route from '@ember/routing/route';
 
 export default Route.extend({
-  model() {
-    return this.get('store').findAll('comment');
+  model(params) {
+    return this.get('store').find('chapter', params.id);
   },
-});
+});</code></pre>
+	</div>
+							</div>
+						</div>
+					</section>
+					<section class="panel-section">
+						<article style="display: flex; align-items: center;">
+							<div class="border-wrapper fragment fade-up" style="display: flex; flex: 1;">
+								<div class="row" style="display: flex; flex: 1;">
+									<div class="fragment fade-up col col-12 bordered" style="display: flex; align-items: center; justify-content: center;">
+										<div style="flex: 1; height: 8em;">
+											<h2>Comic Panels</h2>
+									  </div>
+									</div>
+								</div>
+							</div>
+					  </article>
+					</section>
+					<section class="panel-section">
+						<article>
+							<div class="border-wrapper fragment fade-up">
+								<div class="row">
+									<div class="fragment fade-up col col-12 bordered">
+										<h2>Comic Panels</h2>
+	                   <img class="bordered img-bordered" src="./lib/img/panel1.png" height="400" alt="Example Panel, Person in boat on the sea" />
+									</div>
+								</div>
+							</div>
+					  </article>
+					</section>
+					<section>
+						<div class="fragment fade-up">
+							<div class="row">
+									<h3>Motion and Storytelling in Classic Comics</h3>
+                  <p class="fragment fade-up"><img class="shadowed" src="./lib/img/comicstrip.png" alt="Calvin and Hobbes COmic Strip" /></p>
+									<small class="small-title fragment fade-up"><a href="http://calvinandhobbes.wikia.com/wiki/File:Zondarg.png">Calvin &amp; Hobbes: Zondarg</a></small>
+							</div>
+						</div>
+					</section>
+					<section class="panel-section">
+						<article style="display: flex; align-items: center;">
+							<div class="border-wrapper fragment fade-up">
+								<h3>Motion through Sequence</h3>
+								<div class="row">
+										<div class="fragment fade-up col col-6"><img class="bordered img-bordered" src="./lib/img/panel2.png"  alt="Example Panel, Person in boat on the sea" /></div>
+										<div class="fragment fade-up col col-6"><img class="bordered img-bordered" src="./lib/img/panel3.png"  alt="Example Panel, Person in boat on the sea" /></div>
+								</div>
+							</div>
+					  </article>
+					</section>
+					<section data-background-image="./lib/img/internet.svg">
+            <p class="emoji-large fragment fade-up">🎨</p>
+					</section>
+					<section>
+						<img height="400" src="./lib/img/java.png" />
+					</section>
+					<section data-background-color="#CB0909">
+            <img height="400" src="./lib/img/flash3.png" />
+					</section>
+					<section data-background-video="./lib/img/running.mp4" data-background-video-loop="true" data-background-video-muted="true">
+					  <div class="fragment fade-up color-box">
+              <h1>Web Animations API</h1>
+					  </div>
+					</section>
+					<section data-background-color="#222222">
+							<div class="row bordered">
+							<h3>Web Animations API</h3>
+							<div class="row" style="position: relative;">
+								<div class="col col-12 col-less-tall">
+								<div class="fragment fade-in fade-out fade-multiple wide">
+									<pre class="javascript"><code class="large">let keyframe = new KeyframeEffect(
+  element,
+  keyFrames,
+  options,
+);</code></pre>
+		</div>
+		<div class="fragment fade-in fade-out fade-multiple wide">
+			<pre class="javascript"><code class="large">let keyframes = [
+  { transform: 'translateX(250px)' },
+  { transform: 'translateX(0)' },
+];
 </code></pre>
 </div>
 <div class="fragment fade-in fade-out fade-multiple wide">
-<pre class="javascript"><code>// app/components/comment-list.js
+	<pre class="javascript"><code class="large">let keyframes = [
+  { transform: 'translateX(250px)' },
+  { transform: 'translateX(0)' },
+];
+
+// familiar?
+
+@keyframes my-shift-animation {
+  0% { transform: translateX(250px); }
+  100% { transform: translateX(0); }
+}
+</code></pre>
+</div>
+<div class="fragment fade-in fade-out fade-multiple wide">
+	<pre class="javascript"><code class="large">let options =  {
+  duration: 400, // in ms
+  iterations: 3,
+  fill: 'forwards' // final animation state
+};</code></pre>
+</div>
+<div class="fragment fade-in fade-out fade-multiple wide">
+	<pre class="javascript"><code class="large">let element = document.querySelector('.my-panel');
+let keyframes = [ /* ... */ ];
+let options = { /* ... */ };
+let keyframe = new KeyframeEffect(element,
+  keyFrames,
+  options
+);</code></pre>
+</div>
+	</div>
+</div>
+							<small class="small-title fragment fade-up"><a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API/Using_the_Web_Animations_API">Using WAAPI Guide on MDN</a></small>
+						</div>
+					</section>
+          <section class="panel-section">
+						<article>
+							<div class="border-wrapper fragment fade-up">
+								<div class="row">
+										<h3>Motion through Animation</h3>
+										<div class="fragment fade-up col col-12"><img class="bordered img-bordered" src="./lib/img/anima.gif" height="300" alt="Example Panel, Person in boat on the sea" /></div>
+								</div>
+							</div>
+					  </article>
+					</section>
+					<section data-background-color="#222222">
+							<div class="row">
+							<h3>Animating - Setting Up a Layer</h3>
+							<div class="row" style="position: relative;">
+								<div class="col col-12 col-less-tall">
+									<div class="fragment fade-in fade-out fade-multiple wide">
+										<pre class="javascript"><code>// app/components/panel-layer.js
 import Component from '@ember/component';
 
 export default Component.extend({
-  tagName: 'ul',
-  comments: null,
+  setup() {
+    let animationStates = [
+      { backgroundPosition: 'center 0' },
+      { backgroundPosition: `center 100%` }
+    ];
+  }
 });
+	</code></pre>
+			</div>
+								<div class="fragment fade-in fade-out fade-multiple wide">
+									<pre class="javascript"><code>// app/components/panel-layer.js
+import Component from '@ember/component';
 
-// app/templates/components/comment-list.hbs
+export default Component.extend({
+  setup() {
+    let animationStates = [ /* .... */ ];
 
-{{#each comments as |comment|}}
-  &lt;li&gt;{{comment.body}} - by {{comment.author}}&lt;/li&gt;
-{{/each}}
+    return new KeyframeEffect(
+      this.element,
+      animationStates,
+      animationOptions,
+    );
+  }
+});
+</code></pre>
+		</div>
+		<div class="fragment fade-in fade-out fade-multiple wide">
+			<pre class="javascript"><code class="large">// app/components/panel-layer.js
+import Component from '@ember/component';
+
+export default Component.extend({
+  didInsertElement() {
+    let effect = this.setup();
+    this.onSetup(effect);
+  },
+  // ...
+});
+</code></pre>
+</div>
+	</div>
+</div>
+</section>
+<section data-background-color="#222222">
+		<div class="row bordered">
+		<h3>Animating - Setting Up a Panel</h3>
+		<div class="row" style="position: relative;">
+			<div class="col col-12 col-less-tall">
+			<div class="fragment fade-in fade-out fade-multiple wide">
+				<pre class="javascript"><code>// app/components/comic-panel.js
+import Component from '@ember/component';
+
+export default Component.extend({
+  actions: {
+    setupEffects(effect) {
+      this.effects.addObject(effect);
+    },
+  }
+});
 </code></pre>
 </div>
 <div class="fragment fade-in fade-out fade-multiple wide">
-	<pre><code>// app/templates/post.hbs
+<pre class="javascript"><code>// app/components/comic-panel.js
+import Component from '@ember/component';
 
-<h1>Posts</h1>
-{{! other post route related markup}}
-{{comment-list comments=model}}
+export default Component.extend({
+  didInsertElement() {
+    this._super(...arguments);
+    let groupEffect = new GroupEffect(this.effects);
+  },
+  // ...
+});
 </code></pre>
 </div>
-              </div>
-					  </div>
+</div>
+<div class="fragment fade-in fade-out fade-multiple wide">
+<pre class="javascript"><code>// app/components/comic-panel.js
+import Component from '@ember/component';
+
+export default Component.extend({
+  didInsertElement() {
+    this._super(...arguments);
+    let groupEffect = new GroupEffect(this.effects);
+    let timeline = document.timeline;
+    let currentAnimation = new Animation(groupEffect, timeline);
+    this.set('animation', currentAnimation);
+  },
+	// ...
+});
+</code></pre>
+</div>
+</div>
+</div>
+</section>
+<section class="panel-section">
+	<article>
+		<div class="border-wrapper fragment fade-up">
+			<div class="row">
+					<h4>Motion through Animation</h4>
+					<div class="fragment fade-up col col-12"><img class="bordered img-bordered" src="./lib/img/anima.gif" alt="Example Panel, Person in boat on the sea" height="200" /></div>
+					<div class="fragment fade-up col col-12">
+						<pre class="javascript"><code>// Gain playback control
+
+this.animation.play();
+this.animation.pause();
+	</code></pre>
+					</div>
+			</div>
+		</div>
+  </article>
+</section>
+					<section>
+						<div class="row">
+							<h3>But Why Ember?</h3>
+						</div>
+						<p><img src="./lib/img/logos/ember.png" height="200" /></p>
+	          <ul style="list-style: none;">
+							<li class="fragment fade-up">❤️ Easy Separation of Concerns</li>
+              <li class="fragment fade-up">❤️ Conventions over Configuration</li>
+							<li class="fragment fade-up">❤️ Benefit from the Community</li>
+						</ul>
 					</section>
-<section>
-	<h4>Taking <br> Data Down, Actions Up <br> Further</h4>
-  <img class="shadowed" src="./lib/img/logos/ember-redux.png" height="200" />
-</section>
-<section>
-	<div class="fragment fade-up">
-    <h2>Convergent Evolution: Adopting Solutions To Similar Problems</h2>
-  </div>
-</section>
-<section data-background-image="./lib/img/ecosystem2.jpg">
+					<section>
+						<div class="fragment fade-up">
+							<div class="row">
+									<h4>Benefit from the Community - Dynamic Triggering of Animations</h4>
+									<div class="fragment fade-up col col-12"><img class="bordered img-bordered" src="./lib/img/anima2.gif" height="400"  alt="Example Panel, Person in boat on the sea" /></div>
+							</div>
+						</div>
+					</section>
+					<section data-background-color="#222222">
+						<div class="fragment fade-up">
+							<h4>Dynamic Triggering of Animations</h4>
+							<div class="row">
+							  <pre class="javascript"><code>ember install ember-in-viewport</code></pre>
+							</div>
+							<small class="small-title fragment fade-up"><a href="https://github.com/DockYard/ember-in-viewport">ember-in-viewport addon</a> created by <a href="https://twitter.com/sugarpirate_" target="lauren">@sugarpirate_</a></small>
+						</div>
+					</section>
+					<section data-background-color="#222222">
+ 						<div class="fragment fade-up">
+							<div class="row">
+									<h3>Benefit from the Community - Dynamic Animations</h3>
+								<pre class="javascript"><code>// app/components/comic-panel.js
+import Component from '@ember/component';
+import InViewportMixin from 'ember-in-viewport';
+
+export default Component.extend(InViewportMixin, {
+  didEnterViewport() {
+    this.animation.play();
+  },
+  didExitViewport() {
+    this.animation.pause();
+  },
+}),
+</code></pre>
+							</div>
+							<small class="small-title fragment fade-up"><a href="https://github.com/DockYard/ember-in-viewport">ember-in-viewport addon</a> created by <a href="https://twitter.com/sugarpirate_" target="lauren">@sugarpirate_</a></small>
+						</div>
+					</section>
+<section data-background-image="./lib/img/popart.jpeg">
 
 </section>
 <section>
   <h2 id="typefield"></h2>
 	<div id="start-typing" class="fragment fade-up"></div>
 </section>
-<!-- <section>
-  <h5>This presentation couldn't have been made without the support of the following JavaScript ecosystems</h5>
-	<ul class="supersmall-list">
-		<li>
-			<a href="https://github.com/hakimel/reveal.js/">
-				Slides with RevealJS
-			</a>
-		</li>
-		<li>
-			<a href="https://highlightjs.org/">
-				Code Highlighting with Highlight.js
-			</a>
-		</li>
-		<li>
-			<a href="http://datamaps.github.io/">
-				Data Map Visualization with DataMaps
-			</a>
-		</li>
-		<li>
-			<a href="http://datamaps.github.io/">
-				...
-			</a>
-		</li>
-	</ul>
-</section> -->
-<section data-background-color="#f7df1e">
+<section>
 	<h1>Thank you! ✨✨✨</h1>
 	<small class="right" style="font-style: italic; float: right; margin-top: 2em;"><a href="https://twitter.com/jjordan_dev" target="react-comp-blogpost">
 		<img src="./lib/img/logos/twitter.png" alt="Twitter Logo" style="height: 30px; width: 30px; position: relative; top: -13px;"/>@jjordan_dev</a></small>
@@ -447,12 +501,10 @@ export default Component.extend({
 					{ src: 'plugin/markdown/markdown.js' },
 	        { src: 'lib/js/topojson.min.js' },
 					{ src: 'lib/js/d3.min.js' },
-					{ src: 'lib/js/worldmap.js' },
 					{ src: 'plugin/notes/notes.js', async: true },
 					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-					{ src: 'lib/js/Chart.bundle.min.js', async: true, callback: function() {} },
-					{ src: 'js/chartz.js?v=1.0.2', async: true, },
 					{ src: 'lib/js/typed.js', async: true, },
+					{ src: 'js/chartz.js'}
 				]
 			});
 		</script>

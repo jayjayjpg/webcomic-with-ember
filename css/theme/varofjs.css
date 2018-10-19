@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:500,800");
+html {
+  background-color: #222222; }
+
 body {
-  background-color: #1a237e; }
+  background: linear-gradient(0.7turn, #011F4B, #303f9f, #4a148c); }
 
 * {
   box-sizing: border-box; }
@@ -53,12 +56,16 @@ img.fill {
 .reveal .controls .navigate-left .controls-arrow {
   color: rgba(30, 30, 30, 0.5); }
 
-.reveal .slides section h1, .reveal .slides section h2, .reveal .slides section h3, .reveal .slides section h4, .reveal .slides section h5, .reveal .slides section p, .reveal .slides section li {
+.reveal .slides section h1, .reveal .slides section h2, .reveal .slides section h3, .reveal .slides section h4, .reveal .slides section h5, .reveal .slides section p, .reveal .slides section li, .reveal .slides section small, .reveal .slides section a {
   font-family: 'Raleway', sans-serif;
   text-transform: none;
   color: #efefef; }
-  .reveal .slides section h1.light, .reveal .slides section h2.light, .reveal .slides section h3.light, .reveal .slides section h4.light, .reveal .slides section h5.light, .reveal .slides section p.light, .reveal .slides section li.light {
+  .reveal .slides section h1.light, .reveal .slides section h2.light, .reveal .slides section h3.light, .reveal .slides section h4.light, .reveal .slides section h5.light, .reveal .slides section p.light, .reveal .slides section li.light, .reveal .slides section small.light, .reveal .slides section a.light {
     color: #222222; }
+
+.reveal .slides section h1, .reveal .slides section h2, .reveal .slides section h3, .reveal .slides section h4, .reveal .slides section h5 {
+  font-family: 'Bangers', sans-serif;
+  letter-spacing: 3px; }
 
 .reveal .slides section h1 {
   font-size: 2.5em !important; }
@@ -86,11 +93,12 @@ img.fill {
   color: white; }
   .reveal .slides section a:hover {
     text-decoration-line: line-through;
-    text-decoration-color: #1a237e;
+    text-decoration-color: #011F4B;
     text-decoration-style: double; }
 
 .reveal .slides section .color-box {
-  background-color: #1a237e; }
+  background-color: #011F4B;
+  box-shadow: 15px 15px 2px rgba(22, 22, 22, 0.8); }
 
 .reveal .slides section .arrow {
   position: relative;
@@ -118,7 +126,8 @@ img.fill {
   float: right;
   text-align: right;
   font-size: 0.5em;
-  font-style: italic; }
+  font-style: italic;
+  margin-top: 0.5em; }
 
 .reveal .slides section .fragment.fade-multiple {
   position: absolute;
@@ -142,6 +151,9 @@ img.fill {
     box-shadow: none; }
     .reveal .slides section pre code.blurred.dark {
       background-color: #efefef; }
+    .reveal .slides section pre code.large {
+      font-size: 1.2em !important;
+      line-height: 1.1em !important; }
 
 .reveal .slides section .framework-theme {
   position: absolute;
@@ -153,6 +165,18 @@ img.fill {
   .reveal .slides section .framework-theme img {
     width: 100%; }
 
+.reveal .slides section.panel-section {
+  padding: 0.5em; }
+  .reveal .slides section.panel-section > article {
+    display: block;
+    position: relative;
+    border: 10px solid #efefef;
+    background-color: rgba(22, 22, 22, 0.7);
+    width: 100%;
+    height: 15em;
+    padding: 0.25em;
+    box-shadow: 15px 15px 2px rgba(22, 22, 22, 0.8); }
+
 .centered {
   margin: 0 auto; }
 
@@ -161,6 +185,24 @@ img.fill {
 
 .supersmall-list li {
   font-size: 11px; }
+
+.bordered.col {
+  padding: 0.5em; }
+  .bordered.col div {
+    border: 3px solid #efefef;
+    height: 3em;
+    background-color: #222222;
+    padding: 0.5em; }
+
+.bordered.row {
+  background-color: transparent;
+  padding: 0.5em; }
+
+.bordered.border-wrapper {
+  border: 3px solid #efefef; }
+
+.bordered.img-bordered {
+  border: 3px solid #efefef !important; }
 
 .ancestor-tree {
   position: relative;
@@ -197,7 +239,7 @@ img.fill {
       font-size: 0.5em;
       position: relative;
       bottom: -6em;
-      margin-top: 0.5em;
+      padding: 1em;
       left: -1em;
       font-style: italic; }
     .ancestor-tree .tree-blob.ancestor {

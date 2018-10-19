@@ -1,9 +1,17 @@
-$indigo: rgb(26, 35, 126);
+$indigo: #011F4B;
+$purple: #4a148c;
+$black: #222222;
 $font-main: #efefef;
-$font-counter: #222222;
+$font-counter: $black;
+$amber: #ffe082;
+
+
+html {
+  background-color: $black;
+}
 
 body {
-  background-color: $indigo;
+  background: linear-gradient(0.7turn, $indigo, #303f9f, #4a148c);
 }
 
 * {
@@ -94,7 +102,8 @@ img {
   }
   .slides {
     section {
-      h1, h2, h3, h4, h5, p, li {
+
+      h1, h2, h3, h4, h5, p, li, small, a {
         font-family: 'Raleway', sans-serif;
         text-transform: none;
         color: $font-main;
@@ -102,6 +111,11 @@ img {
         &.light {
           color: $font-counter;
         }
+      }
+
+      h1, h2, h3, h4, h5 {
+        font-family: 'Bangers', sans-serif;
+        letter-spacing: 3px;
       }
 
       h1 {
@@ -145,6 +159,7 @@ img {
 
       .color-box {
          background-color: $indigo;
+         box-shadow: 15px 15px 2px rgba(22,22,22, 0.8);
       }
 
       .arrow {
@@ -183,6 +198,7 @@ img {
          text-align: right;
          font-size: 0.5em;
          font-style: italic;
+         margin-top: 0.5em;
        }
      }
 
@@ -218,6 +234,11 @@ img {
               background-color: $font-main;
             }
           }
+
+          &.large {
+            font-size: 1.2em !important;
+            line-height: 1.1em !important;
+          }
         }
       }
       .framework-theme {
@@ -229,6 +250,22 @@ img {
         z-index: 2;
         img {
           width: 100%;
+        }
+      }
+
+      &.panel-section {
+        padding: 0.5em;
+
+        & > article {
+          display: block;
+          position: relative;
+          border: 10px solid $font-main;
+          background-color: rgba(22,22,22, 0.7);
+          width: 100%;
+          height: 15em;
+          padding: 0.25em;
+          box-shadow: 15px 15px 2px rgba(22,22,22, 0.8);
+
         }
       }
     }
@@ -247,6 +284,33 @@ img {
   li {
     font-size: 11px;
   }
+}
+
+.bordered {
+
+  &.col {
+    padding: 0.5em;
+
+    div {
+      border: 3px solid $font-main;
+      height: 3em;
+      background-color: $font-counter;
+      padding: 0.5em;
+    }
+  }
+
+  &.row {
+    background-color: transparent;
+    padding: 0.5em;
+  }
+
+   &.border-wrapper {
+     border: 3px solid $font-main;
+   }
+
+   &.img-bordered {
+     border: 3px solid $font-main !important;
+   }
 }
 
 .ancestor-tree {
@@ -273,7 +337,7 @@ img {
       font-size: 0.5em;
       position: relative;
       bottom: -6em;
-      margin-top: 0.5em;
+      padding: 1em;
       left: -1em;
       font-style: italic;
     }
