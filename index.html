@@ -63,9 +63,9 @@
 				</section>
 				<section class="panel-section" data-background-image="./lib/img/emberfankid.jpeg">
 					<article class="fragment fade-up">
-					 <ul class="fragment fade-up" style="padding: 1em; list-style: none;">
+					 <ul class="fragment fade-up" style="padding: 1em; height: 100%; list-style: none; display: flex; justify-content: center; flex-direction: column;">
 	           <li class="fragment fade-up">Ember Learning Core 🤓</li>
-					   <li class="fragment fade-up"><a href="https://the-emberjs-times.ongoodbits.com/" target="embertimes"><img src="./lib/img/logos/embertimes.png" alt="Ember Times Logo" height="100"></a></li>
+					   <li class="fragment fade-up"><a href="https://the-emberjs-times.ongoodbits.com/" target="embertimes" style="margin-top: 1em;"><img src="./lib/img/logos/embertimes.png" alt="Ember Times Logo" height="90"></a></li>
 						 <li class="fragment fade-up"><a style="display: flex; align-items: center;" href="https://www.meetup.com/Ember-js-Berlin/" target="meeetup"><img style="margin-right: 0.5em;" src="./lib/img/emberliner.jpeg" alt="Ember Berlin Meetup" height="100"><small style="flex: 1;">Ember Berlin Meetup: Join us at <strong>Nov 6th!</strong></small></a></li>
 				   </ul>
 			   </article>
@@ -94,10 +94,6 @@
 					<section>
             <p><img class="shadowed" height="500" src="./lib/img/rubyetc.png" alt="Rubyetc Example"/></p>
 						<small class="small-title"><a href="https://twitter.com/rubyetc">Web Comic Example from @rubyetc</a></small>
-					</section>
-					<section>
-            <p><iframe width="1431" height="540" src="https://www.youtube.com/embed/n0O7M1fsWbY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
-						<small class="small-title"><a href="http://phallaina.nouvelles-ecritures.francetv.fr/phallaina_en.php">Web Comic Example "Phallaina" by Marietta Ren</a></small>
 					</section>
 					<section>
               <h2>You can do it, too!</h2>
@@ -229,6 +225,10 @@ export default Route.extend({
             <p class="emoji-large fragment fade-up">🎨</p>
 					</section>
 					<section>
+            <p><iframe width="1431" height="540" src="https://www.youtube.com/embed/n0O7M1fsWbY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
+						<small class="small-title"><a href="http://phallaina.nouvelles-ecritures.francetv.fr/phallaina_en.php">Web Comic Example "Phallaina" by Marietta Ren</a></small>
+					</section>
+					<section>
 						<img height="400" src="./lib/img/java.png" />
 					</section>
 					<section data-background-color="#CB0909">
@@ -303,6 +303,14 @@ let keyframe = new KeyframeEffect(element,
 							</div>
 					  </article>
 					</section>
+					<section class="panel-section">
+						<article class="fragment fade-up" style="background-color: rgba(255,255,255,0.7)">
+								<div class="row">
+										<h3 class="light">A Multi-Layered Animation Experience</h3>
+										<div class="fragment fade-up col col-12"><img src="./lib/img/layers.png" height="300" alt="Example Panel, Person in boat on the sea" /></div>
+								</div>
+					  </article>
+					</section>
 					<section data-background-color="#222222">
 							<div class="row">
 							<h3>Animating - Setting Up a Layer</h3>
@@ -322,6 +330,21 @@ export default Component.extend({
 });
 	</code></pre>
 			</div>
+			<div class="fragment fade-in fade-out fade-multiple wide">
+				<pre class="javascript"><code>// app/components/panel-layer.js
+import Component from '@ember/component';
+
+export default Component.extend({
+  setup() {
+    let animationStates = [ /* ... */ ];
+    let animationOptions = {
+      easing: steps(5),
+      iterations: 3,
+    };
+  }
+});
+</code></pre>
+</div>
 								<div class="fragment fade-in fade-out fade-multiple wide">
 									<pre class="javascript"><code>// app/components/panel-layer.js
 import Component from '@ember/component';
@@ -412,8 +435,8 @@ export default Component.extend({
 			<div class="row">
 					<h4>Motion through Animation</h4>
 					<div class="fragment fade-up col col-12"><img class="bordered img-bordered" src="./lib/img/anima.gif" alt="Example Panel, Person in boat on the sea" height="200" /></div>
-					<div class="fragment fade-up col col-12">
-						<pre class="javascript"><code>// Gain playback control
+					<div class="fragment fade-up col col-12" style="text-align: center;">
+						<pre class="javascript" style="width: 15em; margin: 0 auto;"><code>// Gain playback control
 
 this.animation.play();
 this.animation.pause();
@@ -472,8 +495,18 @@ export default Component.extend(InViewportMixin, {
 							<small class="small-title fragment fade-up"><a href="https://github.com/DockYard/ember-in-viewport">ember-in-viewport addon</a> created by <a href="https://twitter.com/sugarpirate_" target="lauren">@sugarpirate_</a></small>
 						</div>
 					</section>
-<section data-background-image="./lib/img/popart.jpeg">
-
+<section class="panel-section">
+  <iframe id="inlineFrameExample" title="Loading via iframe" src="http://localhost:4200/chapters/1"></iframe>
+</section>
+<section class="panel-section" data-background-image="./lib/img/popart.jpeg">
+	<article class="fade-up fragment">
+		<ul style="height: 100%; display: flex; flex-direction: column; justify-content: center; list-style: none;">
+	    <li class="fragment fade-up">Comics are going online</li>
+			<li class="fragment fade-up">The Web provides new freedom to form &amp; layout of comics</li>
+			<li class="fragment fade-up">Native Web APIs for immersive art ❤️</li>
+			<li class="fragment fade-up">Frameworks &amp; JS libraries for intuitive UX</li>
+		</ul>
+  </article>
 </section>
 <section>
   <h2 id="typefield"></h2>

@@ -82,6 +82,9 @@ img.fill {
 .reveal .slides section h5 {
   font-size: 1em; }
 
+.reveal .slides section li {
+  padding-top: 1em; }
+
 .reveal .slides section img {
   border: none;
   box-shadow: none;
@@ -167,7 +170,7 @@ img.fill {
 
 .reveal .slides section.panel-section {
   padding: 0.5em; }
-  .reveal .slides section.panel-section > article {
+  .reveal .slides section.panel-section > article, .reveal .slides section.panel-section > iframe {
     display: block;
     position: relative;
     border: 10px solid #efefef;
